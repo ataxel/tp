@@ -1,0 +1,67 @@
+doctrine:
+    dbal:
+        connections:
+            eng_repository_connection:
+                driver: pdo_mysql
+                host: localhost
+                user: ta.adigo
+                password: 3LFxcP1x
+                dbname: taez5
+                charset: UTF8
+                port: '34336'
+ezpublish:
+    imagemagick:
+        enabled: true
+        path: /usr/bin/convert
+    repositories:
+        eng_repository:
+            engine: legacy
+            connection: eng_repository_connection
+    siteaccess:
+        default_siteaccess: eng
+        list:
+            - ezdemo_site
+            - eng
+            - fre
+            - ezdemo_site_admin
+        groups:
+            ezdemo_site_group:
+                - ezdemo_site
+                - eng
+                - fre
+                - ezdemo_site_admin
+        match:
+            URIElement: '1'
+    system:
+        ezdemo_site_group:
+            repository: eng_repository
+            var_dir: var/ezdemo_site
+        eng:
+            languages:
+                - eng-GB
+            session:
+                name: eZSESSID
+        ezdemo_site_admin:
+            legacy_mode: true
+            languages:
+                - eng-GB
+                - fre-FR
+        ezdemo_site:
+            languages:
+                - eng-GB
+                - fre-FR
+            session:
+                name: eZSESSID
+        fre:
+            languages:
+                - fre-FR
+                - eng-GB
+            session:
+                name: eZSESSID
+stash:
+    caches:
+        default:
+            drivers:
+                - FileSystem
+            inMemory: true
+            registerDoctrineAdapter: false

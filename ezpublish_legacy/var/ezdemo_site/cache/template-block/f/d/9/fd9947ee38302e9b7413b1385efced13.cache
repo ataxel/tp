@@ -1,0 +1,54 @@
+
+<hr class="hide" />
+
+    <div id="leftmenu">
+<div id="leftmenu-design">
+    
+            
+    
+    
+        
+    
+                
+    
+    
+            <div class="box-header"><div class="box-ml">
+        <h4>Design</h4>        </div></div>
+
+        <div class="box-bc"><div class="box-ml"><div class="box-content">
+
+        <ul class="leftmenu-items">
+                                                
+            
+                                        
+                                        
+            
+                                                                                                                                                                                                                                                    <li><div><a href="/ezdemo_site_admin/content/edit/54">Look and feel</a></div></li>
+                                                            
+            
+                                        
+                                        
+            
+                                                                                                                                                                                                                                                    <li><div><a href="/ezdemo_site_admin/visual/toolbarlist">Toolbar management</a></div></li>
+                            </ul>
+
+        </div></div></div>
+        
+
+<div id="widthcontrol-links" class="widthcontrol">
+<p>    <span class="current">Small</span>
+    <a href="/ezdemo_site_admin/user/preferences/set/admin_left_menu_size/medium" title="Change the left menu width to medium size.">Medium</a>
+    <a href="/ezdemo_site_admin/user/preferences/set/admin_left_menu_size/large" title="Change the left menu width to large size.">Large</a>
+    </p>
+</div>
+
+
+<div id="widthcontrol-handler" class="hide">
+<div class="widthcontrol-grippy"></div>
+</div>
+
+    
+</div>
+</div>
+
+<hr class="hide" />

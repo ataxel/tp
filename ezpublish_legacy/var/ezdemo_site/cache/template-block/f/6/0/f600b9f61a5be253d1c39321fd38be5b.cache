@@ -1,0 +1,55 @@
+
+
+<h2>All latest content</h2>
+
+<table class="list" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Published</th>
+        <th>Author</th>
+        <th class="tight"></th>
+    </tr>
+            <tr class="bglight">
+            <td>
+                <a href="/ezdemo_site_admin/eZ-Publish2" title="eZ Publish">eZ Publish</a>
+            </td>
+            <td>
+                Rubrique
+            </td>
+            <td>
+                03/07/2015
+            </td>
+            <td>
+                <a href="/ezdemo_site_admin/Users/Administrator-users/ta-adigo" title="ta adigo">
+                    ta adigo
+                </a>
+            </td>
+            <td>
+                            <a href="/ezdemo_site_admin/content/edit/120/f/eng-GB">
+                    <img src="/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;eZ Publish&gt;." />
+                </a>
+                        </td>
+        </tr>
+            <tr class="bgdark">
+            <td>
+                <a href="/ezdemo_site_admin/Accueil" title="Accueil">Accueil</a>
+            </td>
+            <td>
+                Page d'accueil
+            </td>
+            <td>
+                03/07/2015
+            </td>
+            <td>
+                <a href="/ezdemo_site_admin/Users/Administrator-users/ta-adigo" title="ta adigo">
+                    ta adigo
+                </a>
+            </td>
+            <td>
+                            <a href="/ezdemo_site_admin/content/edit/119/f/eng-GB">
+                    <img src="/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit" title="Edit &lt;Accueil&gt;." />
+                </a>
+                        </td>
+        </tr>
+    </table>

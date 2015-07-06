@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/config/routing_dev.yml

@@ -1,0 +1,577 @@
+a:10:{s:7:"content";s:22323:"<div class="content-view-full">
+ <div class="class-place">
+
+<div class="content-navigation">
+
+
+<div class="context-block">
+
+<div class="box-header">
+
+
+<h1 class="context-title"><a href="/ezdemo_site_admin/class/view/38" onclick="ezpopmenu_showTopLevel( event, 'ClassMenu', ez_createAArray( new Array( '%classID%', 38, '%objectID%', 113, '%nodeID%', 115, '%currentURL%', 'eZ-Mountains/Mount-Kilimanjaro', '%languages%', [{'locale':'eng-GB','name':'English (United Kingdom)'}] ) ), 'Place', ['class-createnodefeed', 'class-removenodefeed'], -1 ); return false;"><img class="transparent-png-icon" src="/share/icons/crystal-admin/32x32/mimetypes/empty.png" width="32" height="32" alt="Place" title="Place" /></a>&nbsp;Mount Kilimanjaro&nbsp;[Place]&nbsp;</h1>
+
+<div class="header-mainline"></div>
+
+</div>
+
+
+<div class="box-content">
+
+<div class="context-information">
+<p class="left modified">Last modified: 23/05/2014 4:57 pm, <a href="/ezdemo_site_admin/Users/Administrator-users/ta-adigo">ta adigo</a> (Node ID: 115, Object ID: 113)</p>
+<p class="right translation">English (United Kingdom)&nbsp;<img src="/share/icons/flags/eng-GB.gif" width="18" height="12" alt="" style="vertical-align: middle;" /></p>
+<div class="break"></div>
+</div>
+
+<div id="window-controls" class="tab-block">
+                                                    <div class="button-left"><a id="maincontent-hide" class="show-hide-tabs" href="/ezdemo_site_admin/user/preferences/set/admin_navigation_content/0" title="Disable &quot;Tabs&quot; by default while browsing content.">&nbsp;</a></div>
+<ul class="tabs tabs-by-cookie">
+    
+    <li id="node-tab-view" class="first selected">
+                    <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(tab)/view" title="Show simplified view of content.">View</a>
+            </li>
+
+    
+    <li id="node-tab-details" class="middle">
+                    <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(tab)/details" title="Show details.">Details</a>
+            </li>
+
+    
+            <li id="node-tab-translations" class="middle">
+                    <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(tab)/translations" title="Show available translations.">Translations (1)</a>
+            </li>
+        
+    
+    <li id="node-tab-locations" class="middle">
+                    <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(tab)/locations" title="Show location overview.">Locations (1)</a>
+            </li>
+
+    
+    <li id="node-tab-relations" class="middle">
+                    <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(tab)/relations" title="Show object relation overview.">Relations (0)</a>
+            </li>
+
+    
+    <li id="node-tab-ordering" class="middle">
+                    <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(tab)/ordering" title="Show published ordering overview.">Ordering</a>
+            </li>
+                
+                
+            <li id="node-tab-commentsbundle" class="last">
+            <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(tab)/commentsbundle" title="Content comments overview.">Comments</a>
+    </li>
+    
+            </ul>
+<div class="float-break"></div>
+<div class="tabs-content">
+    
+<div id="node-tab-view-content" class="tab-content selected">
+    
+    
+
+
+    <div class="block">
+            <label>Name:</label>
+        
+Mount Kilimanjaro        </div>    <div class="block">
+            <label>Description:</label>
+        
+<p><b>Mount Kilimanjaro</b>, with its three&nbsp;volcanic cones,&nbsp;<b>Kibo</b>,&nbsp;<b>Mawenzi</b>, and&nbsp;<b>Shira</b>, is a dormant volcanic mountain in&nbsp;Tanzania. It is the highest mountain in&nbsp;Africa&nbsp;and the highest free-standing mountain in the&nbsp;world&nbsp;at 5,895 metres or 19,341 feet abovesea level&nbsp;(the&nbsp;<b>Uhuru Peak</b>/<b>Kibo Peak</b>).</p><p><sub>This article uses material from the Wikipedia article&nbsp;<a href="http://en.wikipedia.org/wiki/Mount_Kilimanjaro" target="_blank">Mount Kilimanjaro</a>, which is released under the&nbsp;<a href="http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>.</sub></p>        </div>    <div class="block">
+            <label>Image:</label>
+        
+
+    
+        
+    
+                                                                                                                                            <img src="/var/ezdemo_site/storage/images/ez-mountains/mount-kilimanjaro/578-1-eng-GB/Mount-Kilimanjaro_large.jpg" width="360" height="270"  style="border: 0px  ;" alt="Mount Kilimanjaro" title="Mount Kilimanjaro" />
+            
+    
+    
+            </div>    <div class="block">
+            <label>Location:</label>
+                
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+
+function eZGmapLocation_MapView( attributeId, latitude, longitude )
+{
+	var zoommax = 13;
+	
+	if( latitude && longitude )
+	{
+		var startPoint = new google.maps.LatLng( latitude, longitude );
+		var zoom = zoommax;
+		
+	}
+  else
+  {
+      var startPoint = new google.maps.LatLng( 0, 0 );
+      var zoom = 0;
+  }
+
+  var map = new google.maps.Map( document.getElementById( 'ezgml-map-' + attributeId ), { center: startPoint, zoom : zoom, mapTypeId: google.maps.MapTypeId.ROADMAP } );
+	var marker = new google.maps.Marker({ map: map, position: startPoint });
+}
+
+</script><script type="text/javascript">
+if ( window.addEventListener )
+    window.addEventListener('load', function(){ eZGmapLocation_MapView( 579, -3.066465, 37.350666 ) }, false);
+else if ( window.attachEvent )
+    window.attachEvent('onload', function(){ eZGmapLocation_MapView( 579, -3.066465, 37.350666 ) } );
+</script>
+
+<div class="block">
+<label>Latitude:</label> -3.066465
+<label>Longitude:</label> 37.350666
+      <label>Address:</label> mount kilimanjaro
+  </div>
+
+<label>Map:</label>
+<div id="ezgml-map-579" style="width: 500px; height: 280px;"></div>        </div>    <div class="block">
+            <label>Keyword:</label>
+                </div>    <div class="block">
+            <label>Rating:</label>
+        
+<div class="hreview-aggregate">
+   <span class="item">
+      <span class="fn">Mount Kilimanjaro</span>
+   </span>
+
+    <ul id="ezsr_rating_581" class="ezsr-star-rating">
+    <li id="ezsr_rating_percent_581" class="ezsr-current-rating" style="width:0%;">Currently <span>0</span> out of 5 Stars.</li>
+    	<li><a href="JavaScript:void(0);" id="ezsr_581_1_1" title="Rate 1 stars out of 5" class="ezsr-stars-1" rel="nofollow" onfocus="this.blur();">1</a></li>
+    	<li><a href="JavaScript:void(0);" id="ezsr_581_1_2" title="Rate 2 stars out of 5" class="ezsr-stars-2" rel="nofollow" onfocus="this.blur();">2</a></li>
+    	<li><a href="JavaScript:void(0);" id="ezsr_581_1_3" title="Rate 3 stars out of 5" class="ezsr-stars-3" rel="nofollow" onfocus="this.blur();">3</a></li>
+    	<li><a href="JavaScript:void(0);" id="ezsr_581_1_4" title="Rate 4 stars out of 5" class="ezsr-stars-4" rel="nofollow" onfocus="this.blur();">4</a></li>
+    	<li><a href="JavaScript:void(0);" id="ezsr_581_1_5" title="Rate 5 stars out of 5" class="ezsr-stars-5" rel="nofollow" onfocus="this.blur();">5</a></li>
+        </ul>
+
+    <span class="rating">
+	Rating: <span id="ezsr_average_581" class="average ezsr-average-rating">0</span>/5
+	(<span id="ezsr_total_581" class="votes">0</span> votes cast)
+	    </span>
+
+    <p id="ezsr_just_rated_581" class="ezsr-just-rated hide">Thank you for rating!</p>
+    <p id="ezsr_has_rated_581" class="ezsr-has-rated hide">You have already rated this page, you can only rate it once!</p>
+    <p id="ezsr_changed_rating_581" class="ezsr-changed-rating hide">Your rating has been changed, thanks for rating!</p>
+</div>
+
+    
+                    </div><div class="break"></div>
+</div>
+
+
+<div id="node-tab-details-content" class="tab-content hide">
+    <div class="block">
+
+
+<table class="list" cellspacing="0" summary="Node and object details like creator, when it was created, section it belongs to, number of versions and translations, Node ID and Object ID.">
+<tr>
+    <th>Creator</th>
+    <th>Created</th>
+    <th>Section</th>
+    <th class="tight">Versions</th>
+    <th class="tight">Translations</th>
+    <th class="tight">Node ID</th>
+    <th class="tight">Object ID</th>
+</tr>
+<tr class="bglight">
+    <td><a href="/ezdemo_site_admin/Users/Administrator-users/ta-adigo">ta adigo</a></td>
+    <td>08/04/2014 1:01 am</td>
+    <td>
+    <form name="changesection" id="changesection" method="post" action="/ezdemo_site_admin/content/edit/113">
+    <input type="hidden" name="RedirectRelativeURI" value="eZ-Mountains/Mount-Kilimanjaro" />
+    <input type="hidden" name="ChangeSectionOnly" value="1" />
+
+    <select id="selected-section-id" name="SelectedSectionId">
+                    <option value="5">Design</option>
+                            <option value="3">Media</option>
+                            <option value="6">Restricted</option>
+                            <option value="4">Setup</option>
+                            <option value="1" selected="selected">Standard</option>
+                            <option value="2">Users</option>
+                </select>
+    <input id="tab-details-set-section" type="submit" value="Set" name="SectionEditButton" class="button" />
+    </form>
+
+    </td>
+    <td class="number" align="right">1</td>
+    <td class="number" align="right">1</td>
+    <td class="number" align="right">115</td>
+    <td class="number" align="right">113</td>
+</tr>
+</table>
+</div>
+
+<div class="block">
+<table class="list" cellspacing="0" summary="Node Remote ID and Object Remote ID">
+    <tr>
+        <th>Node Remote ID</th>
+        <th>Object Remote ID</th>
+    </tr>
+    <tr>
+         <td>c5e6bd34d3909e153e3c7d515989ec0a</td>
+         <td>954cd863ca3b3fadae24eab118af2149</td>
+    </tr>
+</table>
+</div>
+
+<br />
+
+<div class="block">
+<h3>Content state</h3>
+
+
+<form name="statesform" method="post" action="/ezdemo_site_admin/state/assign">
+<input type="hidden" name="ObjectID" value="113" />
+<input type="hidden" name="RedirectRelativeURI" value="eZ-Mountains/Mount-Kilimanjaro" />
+
+<table id="tab-details-states-list" class="list" cellspacing="0" summary="States and their states groups for current object.">    <tr class="bgdark">
+    <td colspan="2">
+    <em>No content object state is configured. This can be done <a href="/ezdemo_site_admin/state/groups"> here</a>.</em>
+    </td>
+    </tr></table>
+
+<div class="block">
+<div class="button-left">
+        <input type="submit" id="tab-details-set-states" value="Set states" name="AssignButton" class="button-disabled" disabled="disabled" title="No state to be applied to this content object. You might need to be assigned a more permissive access policy."/>
+    </div>
+<div class="break"></div>
+</div>
+
+</form>
+</div>
+<script type="text/javascript">
+
+(function( $ )
+{
+    $('#tab-details-states-list select').change(function()
+    {
+        var btn = $('#tab-details-set-states');
+        if ( !btn.attr('disabled') )
+        {
+            btn.removeClass('button').addClass('defaultbutton');
+        }
+    });
+    $('#selected-section-id').change(function()
+    {
+        var btn = $('#tab-details-set-section');
+        if ( !btn.attr('disabled') )
+        {
+            btn.removeClass('button').addClass('defaultbutton');
+        }
+    });
+})( jQuery );
+
+</script>
+<div class="break"></div>
+</div>
+
+
+<div id="node-tab-translations-content" class="tab-content hide">
+    
+<form name="translationsform" method="post" action="/ezdemo_site_admin/content/translation">
+<input type="hidden" name="ContentNodeID" value="115" />
+<input type="hidden" name="ContentObjectID" value="113" />
+<input type="hidden" name="ViewMode" value="full" />
+<input type="hidden" name="ContentObjectLanguageCode" value="" />
+
+<fieldset>
+<legend>Existing translations</legend>
+
+<table id="tab-translations-list" class="list" cellspacing="0" summary="Language list of translations for current object.">
+<tr>
+    <th class="tight"><img src="/design/admin/images/toggle-button-16x16.gif" width="16" height="16" alt="Invert selection." title="Invert selection." onclick="ezjs_toggleCheckboxes( document.translationsform, 'LanguageID[]' ); return false;"/></th>
+    <th>Language</th>
+    <th>Locale</th>
+    <th class="tight">Main</th>
+    <th class="tight">&nbsp;</th>
+</tr>
+
+<tr class="bglight">
+
+
+<td>
+    <input type="checkbox" name="LanguageID[]" value="2" disabled="disabled" />
+</td>
+
+
+<td>
+<img src="/share/icons/flags/eng-GB.gif" width="18" height="12" alt="eng-GB" />
+&nbsp;<b><a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro/(language)/eng-GB" title="View translation.">English (United Kingdom)</a></b></td>
+
+
+<td>eng-GB</td>
+
+
+<td>
+
+<input type="radio"  checked="checked" class="main-translation-radio main-translation-radio-initial" name="InitialLanguageID" value="2" title="Use these radio buttons to select the desired main language." />
+
+</td>
+
+
+<td>
+
+<a href="/ezdemo_site_admin/content/edit/113/f/eng-GB"><img src="/extension/ezdemo/design/ezdemo/images/edit.gif" width="16" height="16" alt="Edit in &lt;English (United Kingdom)&gt;." title="Edit in &lt;English (United Kingdom)&gt;." /></a>
+
+</td>
+
+</tr>
+</table>
+
+<div class="block">
+<div class="button-left">        <input class="button-disabled" type="submit" name="RemoveTranslationButton" value="Remove selected" title="There is no removable language." disabled="disabled" />
+    </div>
+
+<div class="button-right">        <input class="button-disabled" type="submit" name="UpdateInitialLanguageButton" value="Set main" disabled="disabled" title="You cannot change the main language because the object is not translated to any other languages." />
+    </div>
+
+<div class="break"></div>
+</div>
+
+</fieldset>
+
+
+<div class="block">
+
+<div class="block">
+<input id="tab-translations-alwaysavailable-checkbox" type="checkbox" name="AlwaysAvailable" value="1" /> Use the main language if there is no prioritized translation.
+</div>
+
+<div class="block">    <input id="tab-translations-alwaysavailable-btn" class="button" type="submit" name="UpdateAlwaysAvailableButton" value="Update" title="Use this button to store the value of the checkbox above." />
+    <script type="text/javascript">
+    
+    (function( $ )
+    {
+        $('#tab-translations-alwaysavailable-checkbox').change(function()
+        {
+            $('#tab-translations-alwaysavailable-btn').removeClass('button').addClass('defaultbutton');
+        });
+    })( jQuery );
+    
+    </script></div>
+</div>
+
+
+</form>
+<div class="break"></div>
+</div>
+
+
+<div id="node-tab-locations-content" class="tab-content hide">
+    
+<form name="locationsform" method="post" action="/ezdemo_site_admin/content/action">
+<input type="hidden" name="ContentNodeID" value="115" />
+<input type="hidden" name="ContentObjectID" value="113" />
+<input type="hidden" name="ViewMode" value="full" />
+<input type="hidden" name="ContentObjectLanguageCode" value="" />
+
+<table id="tab-locations-list" class="list" cellspacing="0" summary="Locations (aka Nodes) for current object.">
+<tr>
+    <th class="tight"><img src="/design/admin/images/toggle-button-16x16.gif" width="16" height="16" alt="Invert selection." title="Invert selection." onclick="ezjs_toggleCheckboxes( document.locationsform, 'LocationIDSelection[]' ); return false;"/></th>
+    <th class="wide">Location</th>
+    <th class="tight">Sub items</th>
+
+    <th class="tight">Visibility</th>
+    <th class="tight">Main</th>
+</tr>    
+<tr class="bglight">
+
+    
+    <td>
+            <input type="checkbox" name="LocationIDSelection[]" value="115" disabled="disabled" title="This location cannot be removed either because you do not have permission to remove it or because it is currently being displayed." />
+        </td>
+
+    
+        <td> <a href="/ezdemo_site_admin">Home</a> /  <a href="/ezdemo_site_admin/eZ-Mountains">eZ Mountains</a> /  <a href="/ezdemo_site_admin/eZ-Mountains/Mount-Kilimanjaro">Mount Kilimanjaro</a></td>
+    
+
+    
+    <td class="number" align="right">0</td>
+
+    
+
+
+    
+    <td class="nowrap">
+            Visible
+        [ <a href="/ezdemo_site_admin/content/hide/115" title="Hide location and all sub items." >Hide</a> ]
+        </td>
+
+    
+    <td>
+
+    
+        <input type="radio" checked="checked" name="MainAssignmentCheck" value="115" disabled="disabled" title="The item being displayed has only one location, which is by default the main location." />
+    
+    
+    </td>
+</tr></table>
+
+
+<input type="hidden" name="HasMainAssignment" value="1" />
+
+
+<div class="block">
+<div class="button-left">
+        <input class="button-disabled" type="submit" name="RemoveAssignmentButton" value="Remove selected" title="There is no removable location." disabled="disabled" />
+    
+        <input class="button" type="submit" name="AddAssignmentButton" value="Add locations" title="Add one or more new locations." />
+    </div>
+
+<div class="button-right">    <input class="button-disabled" type="submit" name="UpdateMainAssignmentButton" value="Set main" disabled="disabled" title="You cannot set the main location because there is only one location present." /></div>
+
+<div class="break"></div>
+</div>
+
+</form><div class="break"></div>
+</div>
+
+
+<div id="node-tab-relations-content" class="tab-content hide">
+    
+<table class="list" cellspacing="0" summary="Object relation list from current object.">
+<tr>
+    <th>Related objects (0)</th>
+    </tr>    <tr><td>The item being viewed does not make use of any other objects.</td></tr></table>
+
+<br />
+
+
+<table class="list" cellspacing="0" summary="Reverse object relation list to current object.">
+<tr>
+    <th>Reverse related objects (0)</th>
+    </tr>    <tr><td>The item being viewed is not used by any other objects.</td></tr></table>
+
+ 
+<div class="break"></div>
+</div>
+
+
+<div id="node-tab-ordering-content" class="tab-content hide">
+    
+<form name="ordering" method="post" action="/ezdemo_site_admin/content/action">
+<input type="hidden" name="ContentNodeID" value="115" />
+<div class="block">    
+    <fieldset>
+        <legend>Published order</legend>
+    
+            
+                                            <input type="hidden" name="ContentObjectID" value="113" />
+                
+        <div class="block">Use these controls to set the sorting method for the sub items of the current location.</div>
+        <select id="ezasi-sort-field" name="SortingField" title="Use these controls to set the sorting method for the sub items of the current location.">
+                    <option value="6" >Class identifier</option>
+                    <option value="7" >Class name</option>
+                    <option value="5" >Depth</option>
+                    <option value="3" >Modified</option>
+                    <option value="9" >Name</option>
+                    <option value="1" selected="selected">Path String</option>
+                    <option value="8" >Priority</option>
+                    <option value="2" >Published</option>
+                    <option value="4" >Section</option>
+                </select>
+    
+        <select id="ezasi-sort-order" name="SortingOrder" title="Use these controls to set the sorting method for the sub items of the current location.">
+            <option value="0">Descending</option>
+            <option value="1" selected="selected">Ascending</option>
+        </select>
+    
+        <input  id="ezasi-sort-set" class="button" type="submit" name="SetSorting" value="Set" title="Use these controls to set the sorting method for the sub items of the current location."  />
+    
+            </fieldset>
+</div>
+</form>
+
+
+
+<script type="text/javascript">
+jQuery('#ezasi-sort-field, #ezasi-sort-order').each( function(){
+    jQuery( this ).attr( 'initial', this.value );
+} ).change(function(){
+    var t = $(this), o = $(this.id === 'ezasi-sort-field' ? '#ezasi-sort-order' : '#ezasi-sort-field'), s = $('#ezasi-sort-set');
+    // signal in gui if user needs to save this or not
+    if ( t.val() === t.attr('initial') && o.val() === o.attr('initial') )
+        s.removeClass('defaultbutton').addClass('button');
+    else
+        s.removeClass('button').addClass('defaultbutton');
+});
+</script>
+
+<div class="break"></div>
+</div>
+
+<div id="node-tab-commentsbundle-content" class="tab-content hide">
+    <div class="block">
+    
+</div>
+<div class="break"></div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="controlbar">
+
+
+<form method="post" action="/ezdemo_site_admin/content/action">
+<input type="hidden" name="TopLevelNode" value="115" />
+<input type="hidden" name="ContentNodeID" value="115" />
+<input type="hidden" name="ContentObjectID" value="113" />
+
+<div class="button-left">
+<div class='block'>
+                <select name="ContentObjectLanguageCode">
+                                   <option value="eng-GB" selected="selected">English (United Kingdom)</option>
+                                        <option value="">New translation</option>
+                        </select>
+        <input class="button" type="submit" name="EditButton" value="Edit" title="Edit the contents of this item." />
+    <input class="button" type="submit" name="MoveNodeButton" value="Move" title="Move this item to another location." />
+    <input class="button" type="submit" name="ActionRemove" value="Remove" title="Remove this item." /></div>
+</div>
+
+<div class="button-right">
+	<p class='versions'>
+    
+    <a href="/ezdemo_site_admin/content/history/113" title="View and manage (copy, delete, etc.) the versions of this object.">Manage versions</a>
+    </p>
+</div>
+
+<div class="float-break"></div>
+</form>
+
+</div>
+
+
+</div>
+
+
+<div id="content-view-children">    <div class="context-block">
+
+<div class="box-header"><div class="box-ml">
+
+<h2 class="context-title"><a href="/ezdemo_site_admin/eZ-Mountains"><img src="/design/admin/images/up-16x16-grey.png" width="16" height="16" alt="Up one level" title="Up one level" /></a> Sub items (0)</h2>
+
+
+
+</div></div>
+
+<div class="box-bc"><div class="box-ml"><div class="box-content">
+
+<div class="block">
+    <p>The &lt;Place&gt; class is not configured to contain any sub items.</p>
+</div>
+
+</div></div></div>
+
+</div>
+</div>
+
+</div>
+
+ </div>
+</div>";s:15:"view_parameters";a:5:{s:6:"offset";b:0;s:4:"year";b:0;s:5:"month";b:0;s:3:"day";b:0;s:10:"namefilter";b:0;}s:4:"path";a:3:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:12:"eZ Mountains";s:3:"url";s:22:"/content/view/full/110";s:9:"url_alias";s:12:"eZ-Mountains";s:7:"node_id";s:3:"110";}i:2;a:4:{s:4:"text";s:17:"Mount Kilimanjaro";s:3:"url";b:0;s:9:"url_alias";b:0;s:7:"node_id";s:3:"115";}}s:10:"title_path";a:3:{i:0;a:4:{s:4:"text";s:4:"Home";s:3:"url";s:20:"/content/view/full/2";s:9:"url_alias";s:0:"";s:7:"node_id";s:1:"2";}i:1;a:4:{s:4:"text";s:12:"eZ Mountains";s:3:"url";s:22:"/content/view/full/110";s:9:"url_alias";s:12:"eZ-Mountains";s:7:"node_id";s:3:"110";}i:2;a:3:{s:4:"text";s:17:"Mount Kilimanjaro";s:3:"url";b:0;s:9:"url_alias";b:0;}}s:10:"section_id";s:1:"1";s:7:"node_id";s:3:"115";s:15:"navigation_part";s:23:"ezcontentnavigationpart";s:12:"content_info";a:24:{s:9:"object_id";s:3:"113";s:7:"node_id";s:3:"115";s:14:"parent_node_id";s:3:"110";s:8:"class_id";s:2:"38";s:16:"class_identifier";s:5:"place";s:9:"remote_id";s:32:"954cd863ca3b3fadae24eab118af2149";s:14:"node_remote_id";s:32:"c5e6bd34d3909e153e3c7d515989ec0a";s:6:"offset";b:0;s:8:"viewmode";s:4:"full";s:26:"navigation_part_identifier";s:23:"ezcontentnavigationpart";s:10:"node_depth";s:1:"3";s:9:"url_alias";s:30:"eZ-Mountains/Mount-Kilimanjaro";s:16:"current_language";s:6:"eng-GB";s:13:"language_mask";s:1:"2";s:12:"main_node_id";s:3:"115";s:19:"main_node_url_alias";b:0;s:19:"persistent_variable";a:2:{s:9:"css_files";a:1:{i:0;s:15:"star_rating.css";}s:8:"js_files";a:4:{i:0;s:11:"ezjsc::yui3";i:1;s:13:"ezjsc::yui3io";i:2;s:20:"ezstarrating_yui3.js";i:3;s:12:"node_tabs.js";}}s:11:"class_group";b:0;s:5:"state";a:1:{i:2;s:1:"1";}s:16:"state_identifier";a:1:{i:0;s:18:"ez_lock/not_locked";}s:15:"parent_class_id";s:2:"39";s:23:"parent_class_identifier";s:10:"place_list";s:21:"parent_node_remote_id";s:32:"12d24b1557425698ff9db34850d1847d";s:23:"parent_object_remote_id";s:32:"e4a175637fdb2a0841ac13dafce40c25";}s:13:"template_list";a:27:{i:0;s:41:"design/admin/templates/node/view/full.tpl";i:1;s:52:"design/admin/templates/infocollection_validation.tpl";i:2;s:42:"design/admin/templates/window_controls.tpl";i:3;s:52:"design/admin/templates/window_controls_extratabs.tpl";i:4;s:80:"extension/ezcommentsbundle/design/admin/templates/tabs/commentsbundle_header.tpl";i:5;s:34:"design/admin/templates/windows.tpl";i:6;s:34:"design/admin/templates/preview.tpl";i:7;s:50:"design/admin/templates/node/view/admin_preview.tpl";i:8;s:60:"design/standard/templates/content/datatype/view/ezstring.tpl";i:9;s:61:"design/standard/templates/content/datatype/view/ezxmltext.tpl";i:10;s:68:"design/standard/templates/content/datatype/view/ezxmltags/strong.tpl";i:16;s:86:"extension/ezdemo/design/ezdemo/templates/content/datatype/view/ezxmltags/paragraph.tpl";i:17;s:66:"design/standard/templates/content/datatype/view/ezxmltags/link.tpl";i:19;s:65:"design/standard/templates/content/datatype/view/ezxmltags/sub.tpl";i:21;s:59:"design/standard/templates/content/datatype/view/ezimage.tpl";i:22;s:91:"extension/ezgmaplocation/design/standard/templates/content/datatype/view/ezgmaplocation.tpl";i:23;s:76:"extension/ezdemo/design/ezdemo/templates/content/datatype/view/ezkeyword.tpl";i:24;s:85:"extension/ezstarrating/design/standard/templates/content/datatype/view/ezsrrating.tpl";i:25;s:34:"design/admin/templates/details.tpl";i:26;s:39:"design/admin/templates/translations.tpl";i:27;s:36:"design/admin/templates/locations.tpl";i:28;s:36:"design/admin/templates/relations.tpl";i:29;s:43:"design/admin/templates/navigator/google.tpl";i:30;s:35:"design/admin/templates/ordering.tpl";i:31;s:44:"design/admin/templates/windows_extratabs.tpl";i:32;s:73:"extension/ezcommentsbundle/design/admin/templates/tabs/commentsbundle.tpl";i:33;s:38:"design/admin/templates/no_children.tpl";}s:9:"cache_ttl";i:-1;}

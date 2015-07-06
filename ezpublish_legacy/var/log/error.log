@@ -1,0 +1,228 @@
+[ Nov 16 2014 14:36:34 ] [] eZExtension::activeExtensions:
+Extension 'ezcommentsbundle' does not exist, looked for directory 'extension/ezcommentsbundle'
+[ Nov 16 2014 14:36:34 ] [] eZDir::recursiveDelete:
+The path: var/cache/template/compiled is not a folder
+[ Nov 16 2014 14:36:34 ] [] eZDir::recursiveDelete:
+The path: var/cache/override is not a folder
+[ Jul 03 2015 12:06:47 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 12:07:05 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 12:24:34 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 12:25:02 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 12:25:04 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 13:48:47 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 14:27:09 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:07 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:07 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:39 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:39 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:39 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:46 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:58 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:29:58 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:30:36 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:30:36 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:31:30 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:31:44 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' ORDER BY modified DESC
+LIMIT 0, 10
+[ Jul 03 2015 14:31:44 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:31:44 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1' ORDER BY keyword ASC
+LIMIT 0, 10
+[ Jul 03 2015 14:31:44 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:31:44 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1'
+[ Jul 03 2015 14:32:20 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:32:31 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'ezpublish' AND parent_id='0'
+[ Jul 03 2015 14:32:31 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'ezpublish', 1, '/', 0, '5ebc8545bfa3035ec1b2a2963e21a6b6')
+[ Jul 03 2015 14:32:31 ] [10.42.1.252] eZDBInterface::commit TRANSID-724b3db74235d95c3b8a150a765b55fd:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-724b3db74235d95c3b8a150a765b55fd.
+[ Jul 03 2015 14:32:50 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'ezpublish' AND parent_id='0'
+[ Jul 03 2015 14:32:50 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'ezpublish', 1, '/', 0, '1f7eca0d6c39f8d8840c0ef47b92b6ce')
+[ Jul 03 2015 14:32:50 ] [10.42.1.252] eZDBInterface::commit TRANSID-a891e086f719c3005b9af7a797090e45:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-a891e086f719c3005b9af7a797090e45.
+[ Jul 03 2015 14:33:23 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'ezpublish' AND parent_id='0'
+[ Jul 03 2015 14:33:23 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'ezpublish', 1, '/', 0, 'a4fbf6dc7d347ae9872d14f92e320af5')
+[ Jul 03 2015 14:33:23 ] [10.42.1.252] eZDBInterface::commit TRANSID-90104cf1323b0134392e0e8818dbdf20:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-90104cf1323b0134392e0e8818dbdf20.
+[ Jul 03 2015 14:33:41 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' ORDER BY modified DESC
+LIMIT 0, 10
+[ Jul 03 2015 14:33:41 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:33:41 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1' ORDER BY keyword ASC
+LIMIT 0, 10
+[ Jul 03 2015 14:33:41 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:33:41 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1'
+[ Jul 03 2015 14:33:58 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  keyword like '%frnd%' ORDER BY keyword ASC
+LIMIT 0, 15
+[ Jul 03 2015 14:33:58 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like '%frnd%'
+[ Jul 03 2015 14:37:16 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' ORDER BY modified DESC
+LIMIT 0, 10
+[ Jul 03 2015 14:37:16 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:37:16 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1' ORDER BY keyword ASC
+LIMIT 0, 10
+[ Jul 03 2015 14:37:16 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:37:16 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1'
+[ Jul 03 2015 14:37:21 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:37:28 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'test' AND parent_id='0'
+[ Jul 03 2015 14:37:28 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'test', 1, '/', 0, '5f03f503cb9dacb411708e333aa2b2f8')
+[ Jul 03 2015 14:37:28 ] [10.42.1.252] eZDBInterface::commit TRANSID-79b6df33bcd6312dfa015db36f78e890:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-79b6df33bcd6312dfa015db36f78e890.
+[ Jul 03 2015 14:38:00 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'test' AND parent_id='0'
+[ Jul 03 2015 14:38:00 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'test', 1, '/', 0, '7685e6d3cb0e9b2bb3738eeb9aacf3e4')
+[ Jul 03 2015 14:38:00 ] [10.42.1.252] eZDBInterface::commit TRANSID-8bc5d21b1b521a14291347a3c90481f7:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-8bc5d21b1b521a14291347a3c90481f7.
+[ Jul 03 2015 14:45:48 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:45:56 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'Test' AND parent_id='0'
+[ Jul 03 2015 14:45:56 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'Test', 1, '/', 0, '32d94bd528241428326ed559676a9747')
+[ Jul 03 2015 14:45:56 ] [10.42.1.252] eZDBInterface::commit TRANSID-97df84137fe7f519e56f8abc234a106e:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-97df84137fe7f519e56f8abc234a106e.
+[ Jul 03 2015 14:46:19 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'Test' AND parent_id='0'
+[ Jul 03 2015 14:46:19 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'Test', 1, '/', 0, '6615846cb1b2efff6587f041eaff9d40')
+[ Jul 03 2015 14:46:19 ] [10.42.1.252] eZDBInterface::commit TRANSID-93aa28d82bfe914668467ee005541c83:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-93aa28d82bfe914668467ee005541c83.
+[ Jul 03 2015 14:47:04 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:47:28 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'Test' AND parent_id='0'
+[ Jul 03 2015 14:47:28 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'Test', 1, '/', 0, 'b3e803a61424c34b216765cf185f4865')
+[ Jul 03 2015 14:47:28 ] [10.42.1.252] eZDBInterface::commit TRANSID-b4b08abc87e74b4046b4ecd151c14764:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-b4b08abc87e74b4046b4ecd151c14764.
+[ Jul 03 2015 14:47:51 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  keyword like 'Test' AND parent_id='0'
+[ Jul 03 2015 14:47:51 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: INSERT INTO eztags (parent_id, main_tag_id, keyword, depth, path_string, modified, remote_id) VALUES(0, 0, 'Test', 1, '/', 0, '4e0f022858f9071809c69c960ab218ea')
+[ Jul 03 2015 14:47:51 ] [10.42.1.252] eZDBInterface::commit TRANSID-11c9556cd163a115bd02bca4fda0a686:
+Transaction in progress failed due to DB error, transaction was rollbacked. Transaction ID is TRANSID-11c9556cd163a115bd02bca4fda0a686.
+[ Jul 03 2015 14:48:58 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 14:50:54 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' ORDER BY modified DESC
+LIMIT 0, 10
+[ Jul 03 2015 14:50:54 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:50:54 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1' ORDER BY keyword ASC
+LIMIT 0, 10
+[ Jul 03 2015 14:50:54 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT id, parent_id, main_tag_id, keyword, depth, path_string, modified,       remote_id
+                    FROM   eztags WHERE  id='0'
+[ Jul 03 2015 14:50:54 ] [10.42.1.252] eZMySQLiDB:
+Query error (1146): Table 'taez5.eztags' doesn't exist. Query: SELECT COUNT( * ) AS row_count
+                    FROM   eztags WHERE  main_tag_id='0' AND depth <= '1'
+[ Jul 03 2015 15:09:26 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 15:10:06 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 15:18:07 ] [10.42.1.252] error/view.php:
+Error ocurred using URI: /ezdemo_site_admin/content/action
+[ Jul 03 2015 15:48:02 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 17:13:29 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 17:13:45 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 17:34:46 ] [10.42.1.252] index:
+Undefined module: hello
+[ Jul 03 2015 17:34:46 ] [10.42.1.252] error/view.php:
+Error ocurred using URI: /hello/axel
+[ Jul 03 2015 17:53:35 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 17:54:42 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini
+[ Jul 03 2015 17:55:05 ] [10.42.1.252] eZImageManager::createAliasFromINI:
+No such group productimage in ini file image.ini

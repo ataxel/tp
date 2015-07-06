@@ -1,0 +1,4 @@
+services:
+#    nova_demo_site.example:
+#        class: Nova\DemoSiteBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

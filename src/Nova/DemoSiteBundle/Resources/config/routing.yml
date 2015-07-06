@@ -1,0 +1,3 @@
+nova_demo_site_homepage:
+    path:     /demo
+    defaults: { _controller: NovaDemoSiteBundle:Default:index }
