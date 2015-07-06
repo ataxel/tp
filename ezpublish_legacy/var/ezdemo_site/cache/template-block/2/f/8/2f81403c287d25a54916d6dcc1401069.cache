@@ -33,7 +33,7 @@
     var head = document.getElementsByTagName('head')[0];
     var printNode = document.createElement('link');
     printNode.rel = 'Alternate';
-    printNode.href = "/ezdemo_site_admin/layout/set/print/tags/add/0" + document.location.search;
+    printNode.href = "/ezdemo_site_admin/layout/set/print/content/view/full/2" + document.location.search;
     printNode.media = 'print';
     printNode.title = "Printable version";
     head.appendChild(printNode);

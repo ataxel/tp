@@ -74,7 +74,7 @@ var treeMenu;
     params.action    = "";
     params.context   = "navigation";
     params.hideNodes = [];
-    params.expiry    = "1435927010";
+    params.expiry    = "1436169543";
     params.useCookie = true;
     params.path      = ['5','13'];    params.perm      = "43b864bde60564a9abad0598b1d5d203";
     treeMenu = new ContentStructureMenu( params, i18n );

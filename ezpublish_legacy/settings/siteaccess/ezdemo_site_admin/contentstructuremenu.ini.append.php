@@ -12,4 +12,5 @@ ShowClasses[]=forums
 ShowClasses[]=gallery
 ShowClasses[]=blog
 ShowClasses[]=place_list
+ShowClasses[]=tsms_rubric
 */ ?>
