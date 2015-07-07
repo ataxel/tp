@@ -2,3 +2,21 @@ services:
 #    nova_demo_site.example:
 #        class: Nova\DemoSiteBundle\Example
 #        arguments: [@service_id, "plain_value", %parameter%]
+    nvdemo.menu.builder:
+        class: Nova\DemoSiteBundle\Menu\Builder
+        arguments:
+            - @knp_menu.factory
+            - @ezpublish.api.service.search
+            - @router
+            - @ezpublish.config.resolver
+            - @ezpublish.api.service.location
+            - @ezpublish.translation_helper
+
+    nvdemo.menu.top:
+        class: Nova\DemoSiteBundle\Menu\Builder
+        factory_service: nvdemo.menu.builder
+        factory_method: createTopMenu
+        arguments: [ @request ]
+        scope: request # needed as we have the request as a dependency here
+        tags:
+            - { name: knp_menu.menu, alias: top } # The alias is what is used to retrieve the menu

@@ -24,12 +24,14 @@ ezpublish:
             - eng
             - fre
             - ezdemo_site_admin
+            - demo
         groups:
             ezdemo_site_group:
                 - ezdemo_site
                 - eng
                 - fre
                 - ezdemo_site_admin
+                - demo
         match:
             URIElement: '1'
     system:
