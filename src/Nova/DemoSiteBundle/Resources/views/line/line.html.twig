@@ -1,0 +1,13 @@
+{#
+    Render a content object in line view
+#}
+
+<div class="class-{{ content.contentInfo.contentTypeId }}">
+    <h2><a href="#">{{ ez_render_field( content, 'title') }}</a></h2>
+
+    {% if content.fields['short_description'] is defined %}
+        <div class="attribute-short_description">
+            {{ ez_render_field( content, 'short_description') }}
+        </div>
+    {% endif %}
+</div>

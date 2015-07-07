@@ -110,10 +110,13 @@ class Builder
                 $location->id,
                 array(
                     'label' => $this->translationHelper->getTranslatedContentNameByContentInfo( $location->contentInfo ),
-                    'uri' => $this->router->generate( $location )
+                    'uri' => $this->router->generate( $location ),
+
                 )
             );
-            $menuItem->setChildrenAttribute( 'class', 'nav navbar-nav' );
+            $menuItem->setChildrenAttribute( 'class', 'nav navbar-nav' )
+                     ->setChildrenAttribute( 'id', '#' )
+                     ;
         }
     }
 
@@ -134,7 +137,7 @@ class Builder
                 new Criterion\Visibility( Criterion\Visibility::VISIBLE ),
                 new Criterion\Location\Depth(
                     Criterion\Operator::BETWEEN,
-                    array( $rootLocation->depth + 1, $rootLocation->depth + 2 )
+                    array( $rootLocation->depth + 2, $rootLocation->depth + 3 )
                 ),
                 new Criterion\Subtree( $rootLocation->pathString ),
                 new Criterion\LanguageCode( $this->configResolver->getParameter( 'languages' ) )

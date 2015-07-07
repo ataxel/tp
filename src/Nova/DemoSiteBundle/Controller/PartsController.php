@@ -16,9 +16,9 @@ class PartsController extends Controller
     public function topMenuAction( $currentLocationId ) {
         if ( $currentLocationId !== null ) {
             $location = $this->getLocationService()->loadLocation( $currentLocationId );
-            if ( isset( $location->path[2] ) )
+            if ( isset( $location->path[130] ) )
             {
-                $secondLevelLocationId = $location->path[2];
+                $secondLevelLocationId = $location->path[130];
             }
         }
 
