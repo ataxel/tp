@@ -1,24 +1,27 @@
 system:
-    demo:
+    default:
+        user:
+            layout: NovaDemoSiteBundle::pagelayout.html.twig
         location_view:
             full:
                 nv_homepage:
                     template: "NovaDemoSiteBundle:NovaFront:index.html.twig"
                     match:
                         Identifier\ContentType: "nv_homepage"
-			    tsms_rubric:
-				    controller: NovaDemoSiteBundle:Start:rubricDisplay
-					match:
-					    Identifier\ContentType: "tsms_rubric"
-			    nv_page:
-				    template: "NovaDemoSiteBundle:full:page.html.twig"
-					match:
-					    Identifier\ContentType: "nv_page"
-			    nv_package:
-				    template: "NovaDemoSiteBundle:full:package.html.twig"
-					match:
-					    Identifier\ContentType: "nv_package"
-				nv_pkg_version:
-				    template: "NovaDemoSiteBundle:full:version.html.twig"
-				    match:
-					    Identifier\ContentType: "nv_pkg_version"
+                rubrique:
+                    controller: NovaDemoSiteBundle:Start:rubricDisplay
+                    template: "NovaDemoSiteBundle:full:rubric.html.twig"
+                    match:
+                        Identifier\ContentType: "tsms_rubric"
+                nv_page:
+                    template: "NovaDemoSiteBundle:full:page.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_page"
+                nv_package:
+                    template: "NovaDemoSiteBundle:full:package.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_package"
+                nv_pkg_version:
+                    template: "NovaDemoSiteBundle:full:version.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_pkg_version"

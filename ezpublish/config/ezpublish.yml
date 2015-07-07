@@ -24,14 +24,14 @@ ezpublish:
             - eng
             - fre
             - ezdemo_site_admin
-            - demo
+            - nova_demo_site
         groups:
             ezdemo_site_group:
                 - ezdemo_site
                 - eng
                 - fre
                 - ezdemo_site_admin
-                - demo
+                - nova_demo_site
         match:
             URIElement: '1'
     system:
