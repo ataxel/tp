@@ -13,21 +13,37 @@ use eZ\Publish\API\Repository\Repository;
 
 class StartController extends Controller
 {
-    public function indexAction($locationId)
+    public function indexAction()
     {
 
-        $this->getRepository()->getLocationService()->loadLocation($locationId);
-        return $this->render('NovaDemoSiteBundle:NovaFront:index.html.twig');
+        return $this->redirect($this->generateUrl('accueil'));
+    }
+    public function accueilAction()
+    {
+
+        return $this->render( 'NovaDemoSiteBundle:NovaFront:index.html.twig');
     }
 
-    public function rubricDisplayAction($locationId, $viewType, $layout = false, array $params = array())
+    public function rubricDisplayAction($locationId)
     {
 
+        $query = new Query();
+        $query->criterion = new Criterion\LogicalAnd(
+            array(
+                new Criterion\ParentLocationId( $locationId ),
+                new Criterion\ContentTypeIdentifier( 'nv_package' )
+            )
+        );
+        $result = $this->getRepository()->getSearchService()->findContent($query);
+
+        $content = array();
+        foreach($result->searchHits as $hit)
+        {
+            $content[] = $hit->valueObject;
+        }
 
 
-        $response = $this->get('ez_content')->viewLocation($locationId, $viewType, $layout, $params);
-
-        return $response;
+        return $this->render( 'NovaDemoSiteBundle:line:rubric.html.twig', array("contentList"=>$content));
 
     }
 
@@ -61,6 +77,8 @@ class StartController extends Controller
             return $this->render( 'NovaDemoSiteBundle:full:onePackage.html.twig', array("content"=>$content));
 
     }
+
+
 
     public function rubricContentListAction ($currentLocationId) {
 

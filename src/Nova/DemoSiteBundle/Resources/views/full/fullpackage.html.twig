@@ -10,7 +10,15 @@
    {{ ez_render_field( content, 'screenshot', {'parameters':{'alias':'large'}})   }}
 
     <hr>
-    Type de Package: {{ ez_render_field( content, 'pkg_type') }}
+    <div>Type de Package: {{ ez_render_field( content, 'pkg_type') }}</div>
+
+    {{ ez_render_field(
+        content,
+        'std',
+        { 'template': 'NovaDemoSiteBundle:field:file.html.twig' }
+        )
+    }}
+
     <!-- Post Content -->
     <div class="lead" >{{ ez_render_field( content, 'abstract') }}</div>
     <div >{{ ez_render_field( content, 'description') }}</div>

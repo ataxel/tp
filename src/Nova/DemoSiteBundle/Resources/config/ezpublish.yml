@@ -20,7 +20,7 @@ system:
                         Identifier\ContentType: "nv_homepage"
                 rubrique:
                     controller: NovaDemoSiteBundle:Start:rubricDisplay
-                    template: "NovaDemoSiteBundle:full:rubric.html.twig"
+                    #template: "NovaDemoSiteBundle:full:rubric.html.twig"
                     match:
                         Identifier\ContentType: "tsms_rubric"
                 nv_page:
@@ -40,6 +40,10 @@ system:
                     template: "NovaDemoSiteBundle:line:line.html.twig"
                     match:
                         Identifier\ContentType: "nv_package"
+                rubrique:
+                    template: "NovaDemoSiteBundle:line:line.html.twig"
+                    match:
+                        Identifier\ContentType: "tsms_rubric"
             full_obj:
                 nv_package:
                     template: "NovaDemoSiteBundle:full:fullpackage.html.twig"

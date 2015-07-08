@@ -1,13 +1,14 @@
-
-
+{% extends "NovaDemoSiteBundle::pagelayout.html.twig" %}
+{% block content %}
 <div class="row">
     <div class="col-lg-12">
-        <h3>{{ ez_render_field( content, 'title' ) }} </h3>
-        <a href="#">Go</a>
+        <h3>{# {{ ez_render_field( content, 'title' ) }} #}</h3>
     </div>
 </div>
 
-
+    {% for content in contentList %}
+        {{ render( controller( "ez_content:viewLocation", {"locationId": content.contentInfo.mainLocationId, "viewType": "line"} ) ) }}
+    {% endfor %}
     <!-- /.row -->
    {#
     {% for content in contents %}
@@ -19,5 +20,8 @@
     {'currentLocationId': currentLocation is defined ? currentLocation.id : null})
     ) }} #}
 
-    {#  {{ render( controller( "ez_content:viewLocation", {"locationId": 132, "viewType": "line"} ) ) }}
+    {#
+
     #}
+
+{% endblock %}

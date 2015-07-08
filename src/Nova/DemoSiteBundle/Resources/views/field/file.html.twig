@@ -1,0 +1,20 @@
+{% extends "EzPublishCoreBundle::content_fields.html.twig" %}
+ 
+{% block ezbinaryfile_field %}
+    {% spaceless %}
+        {% if not ez_is_field_empty( content, field ) %}
+            {% set uri = 'content/download/' ~ contentInfo.id ~ '/' ~ field.id
+            ~ '/version/' ~ contentInfo.currentVersionNo ~  "/file/"
+            ~ field.value.fileName|escape( 'url' ) %}
+            {% set typeFile = field.value.mimeType | split('/') %}
+            <!-- fields/ez_render_field_file_button.html.twig -->
+            <p class="wrapReadmore">
+                <a href="{{ path( 'ez_legacy', {'module_uri': uri} ) }}" class="readMore">
+                    <i class="glyphicon glyphicon-download"></i>
+                    <span>Manuel_technique_{{ ez_render_field( content, 'title') }}.{{ typeFile[1]|upper }} <span>({{ field.value.fileSize|ez_file_size( 1 ) }})</span></span>
+                </a>
+                <span class="clear"></span>
+            </p>
+        {% endif %}
+    {% endspaceless %}
+{% endblock %}

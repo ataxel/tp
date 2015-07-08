@@ -2,3 +2,8 @@ nova_demo_site_homepage:
     path:     /
     defaults: { _controller: NovaDemoSiteBundle:Start:index }
 
+accueil:
+    path:    /Accueil
+    defaults: { _controller: NovaDemoSiteBundle:Start:accueil }
+
+
