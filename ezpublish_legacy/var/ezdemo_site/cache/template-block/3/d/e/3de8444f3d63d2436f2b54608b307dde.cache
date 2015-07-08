@@ -19,7 +19,7 @@
 <script type="text/javascript">
 var treeMenu;
 (function(){                                                                                                                                                                                                                                                                                                                                                                                                            
-    var rootNode = {"node_id":"2","object_id":"57","class_id":"23","has_children":true,"name":"Home","url":"\/ezdemo_site_admin\/content\/view\/full\/2","modified_subnode":"1435929800","languages":["eng-GB"],"class_list":["16","35","17","18","19","20","13","43","33","34","22","26","1","30","32","31","36","29","27","23","28","40","42","38","39","25","21","41","44","37","24"]};
+    var rootNode = {"node_id":"2","object_id":"57","class_id":"23","has_children":true,"name":"Home","url":"\/ezdemo_site_admin\/content\/view\/full\/2","modified_subnode":"1436204485","languages":["eng-GB"],"class_list":["16","35","17","18","19","20","13","43","33","34","22","26","1","30","32","31","36","29","27","23","28","40","42","38","39","25","21","41","44","37","24"]};
 
                     var params = {"iconsList":[],"contentTreeUrl":"/ezdemo_site_admin/content/treemenu/","wwwDirPrefix":"/share/icons/crystal-admin/16x16_indexed/"};
 
@@ -72,7 +72,7 @@ var treeMenu;
     params.action    = "";
     params.context   = "navigation";
     params.hideNodes = [];
-    params.expiry    = "1435927010";
+    params.expiry    = "1436203788";
     params.useCookie = true;
     params.path      = ['2'];    params.perm      = "43b864bde60564a9abad0598b1d5d203";
     treeMenu = new ContentStructureMenu( params, i18n );

@@ -764,6 +764,20 @@
           </parameter>
           <parameter key="params" type="collection"/>
         </parameter>
+        <parameter key="Rubrique" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:full:rubric.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">tsms_rubric</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="menu_item" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:parts:menu_item.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="UrlAlias">/</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
       </parameter>
       <parameter key="line" type="collection">
         <parameter key="article" type="collection">
@@ -1532,6 +1546,7 @@
         <parameter>eng</parameter>
         <parameter>fre</parameter>
         <parameter>ezdemo_site_admin</parameter>
+        <parameter>demo</parameter>
       </parameter>
     </parameter>
     <parameter key="ezpublish.siteaccess.groups_by_siteaccess" type="collection">
@@ -1553,6 +1568,9 @@
       <parameter key="ezdemo_site_admin" type="collection">
         <parameter>ezdemo_site_group</parameter>
       </parameter>
+      <parameter key="demo" type="collection">
+        <parameter>ezdemo_site_group</parameter>
+      </parameter>
     </parameter>
     <parameter key="ezpublish.siteaccess.default">eng</parameter>
     <parameter key="ezpublish.siteaccess.relation_map" type="collection">
@@ -1561,6 +1579,7 @@
           <parameter>ezdemo_site</parameter>
           <parameter>eng</parameter>
           <parameter>fre</parameter>
+          <parameter>demo</parameter>
         </parameter>
       </parameter>
     </parameter>
@@ -1579,6 +1598,7 @@
       <parameter>eng</parameter>
       <parameter>fre</parameter>
       <parameter>ezdemo_site_admin</parameter>
+      <parameter>demo</parameter>
     </parameter>
     <parameter key="ezpublish.siteaccess.match_config" type="collection">
       <parameter key="URIElement" type="collection">
@@ -3691,6 +3711,20 @@
           </parameter>
           <parameter key="params" type="collection"/>
         </parameter>
+        <parameter key="Rubrique" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:full:rubric.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">tsms_rubric</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="menu_item" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:parts:menu_item.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="UrlAlias">/</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
       </parameter>
       <parameter key="line" type="collection">
         <parameter key="article" type="collection">
@@ -3843,6 +3877,20 @@
           <parameter key="template">eZDemoBundle:full:feedback_form.html.twig</parameter>
           <parameter key="match" type="collection">
             <parameter key="Identifier\ContentType">feedback_form</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="Rubrique" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:full:rubric.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">tsms_rubric</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="menu_item" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:parts:menu_item.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="UrlAlias">/</parameter>
           </parameter>
           <parameter key="params" type="collection"/>
         </parameter>
@@ -4001,6 +4049,20 @@
           </parameter>
           <parameter key="params" type="collection"/>
         </parameter>
+        <parameter key="Rubrique" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:full:rubric.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">tsms_rubric</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="menu_item" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:parts:menu_item.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="UrlAlias">/</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
       </parameter>
       <parameter key="line" type="collection">
         <parameter key="article" type="collection">
@@ -4156,6 +4218,189 @@
           </parameter>
           <parameter key="params" type="collection"/>
         </parameter>
+        <parameter key="Rubrique" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:full:rubric.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">tsms_rubric</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="menu_item" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:parts:menu_item.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="UrlAlias">/</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+      <parameter key="line" type="collection">
+        <parameter key="article" type="collection">
+          <parameter key="template">eZDemoBundle:line:article.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>article</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="blog_post" type="collection">
+          <parameter key="controller">eZDemoBundle:Demo:showBlogPost</parameter>
+          <parameter key="template">eZDemoBundle:line:blog_post.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>blog_post</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="place" type="collection">
+          <parameter key="template">eZDemoBundle:line:place.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>place</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+    </parameter>
+    <parameter key="ezsettings.demo.location_view" type="collection">
+      <parameter key="gallery_viewer" type="collection">
+        <parameter key="image" type="collection">
+          <parameter key="template">eZDemoBundle:gallery_viewer:image.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">image</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+      <parameter key="gallery_item" type="collection">
+        <parameter key="image" type="collection">
+          <parameter key="template">eZDemoBundle:gallery_item:image.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">image</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+      <parameter key="block_item_campaign" type="collection">
+        <parameter key="article" type="collection">
+          <parameter key="template">eZDemoBundle:block_item_campaign:article.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">article</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+      <parameter key="block_item" type="collection">
+        <parameter key="article" type="collection">
+          <parameter key="template">eZDemoBundle:block_item:article.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">article</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="image" type="collection">
+          <parameter key="template">eZDemoBundle:block_item:image.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">image</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="video" type="collection">
+          <parameter key="template">eZDemoBundle:block_item:video.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">video</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+      <parameter key="block_item_highlighted" type="collection">
+        <parameter key="article" type="collection">
+          <parameter key="template">eZDemoBundle:block_item_highlighted:article.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">article</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+      <parameter key="full" type="collection">
+        <parameter key="article" type="collection">
+          <parameter key="controller">eZDemoBundle:Demo:showArticle</parameter>
+          <parameter key="template">eZDemoBundle:full:article.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>article</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="blog" type="collection">
+          <parameter key="controller">eZDemoBundle:Demo:listBlogPosts</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>blog</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="blog_post" type="collection">
+          <parameter key="controller">eZDemoBundle:Demo:showBlogPost</parameter>
+          <parameter key="template">eZDemoBundle:full:blog_post.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>blog_post</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="frontpage" type="collection">
+          <parameter key="template">eZDemoBundle:full:landing_page.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">landing_page</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="place_list" type="collection">
+          <parameter key="template">eZDemoBundle:full:place_list.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>place_list</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="place" type="collection">
+          <parameter key="template">eZDemoBundle:full:place.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>place</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="feedback_form" type="collection">
+          <parameter key="controller">eZDemoBundle:FeedbackForm:showFeedbackForm</parameter>
+          <parameter key="template">eZDemoBundle:full:feedback_form.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">feedback_form</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="Rubrique" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:full:rubric.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType">tsms_rubric</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+        <parameter key="menu_item" type="collection">
+          <parameter key="template">NovaDemoSiteBundle:parts:menu_item.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="UrlAlias">/</parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
       </parameter>
       <parameter key="line" type="collection">
         <parameter key="article" type="collection">
@@ -4228,6 +4473,19 @@
       </parameter>
     </parameter>
     <parameter key="ezsettings.ezdemo_site_admin.content_view" type="collection">
+      <parameter key="embed" type="collection">
+        <parameter key="image" type="collection">
+          <parameter key="template">eZDemoBundle:embed:image.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>image</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="params" type="collection"/>
+        </parameter>
+      </parameter>
+    </parameter>
+    <parameter key="ezsettings.demo.content_view" type="collection">
       <parameter key="embed" type="collection">
         <parameter key="image" type="collection">
           <parameter key="template">eZDemoBundle:embed:image.html.twig</parameter>
@@ -4476,6 +4734,65 @@
         </parameter>
       </parameter>
     </parameter>
+    <parameter key="ezsettings.demo.block_view" type="collection">
+      <parameter key="block" type="collection">
+        <parameter key="campaign" type="collection">
+          <parameter key="template">eZDemoBundle:block:campaign.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">Campaign</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="content_grid_2cols_2_rows" type="collection">
+          <parameter key="template">eZDemoBundle:block:content_grid_2cols_2rows.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">ContentGrid</parameter>
+            <parameter key="View">2_columns_2_rows</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="content_grid_1col_2rows" type="collection">
+          <parameter key="template">eZDemoBundle:block:content_grid_1col_2rows.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">ContentGrid</parameter>
+            <parameter key="View">default</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="content_grid_1col_4rows" type="collection">
+          <parameter key="template">eZDemoBundle:block:content_grid_1col_4rows.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">ContentGrid</parameter>
+            <parameter key="View">1_column_4_rows</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="gallery" type="collection">
+          <parameter key="template">eZDemoBundle:block:gallery.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">Gallery</parameter>
+            <parameter key="View">default</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="highlighted_item" type="collection">
+          <parameter key="template">eZDemoBundle:block:highlighted_item.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">HighlightedItem</parameter>
+            <parameter key="View">default</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="feed_reader" type="collection">
+          <parameter key="template">eZDemoBundle:block:feed_reader.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">FeedReader</parameter>
+            <parameter key="View">default</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="video" type="collection">
+          <parameter key="template">eZDemoBundle:block:video.html.twig</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Type">Video</parameter>
+            <parameter key="view">default</parameter>
+          </parameter>
+        </parameter>
+      </parameter>
+    </parameter>
     <parameter key="ezsettings.ezdemo_site.session" type="collection">
       <parameter key="name">eZSESSID</parameter>
     </parameter>
@@ -4486,6 +4803,9 @@
       <parameter key="name">eZSESSID</parameter>
     </parameter>
     <parameter key="ezsettings.ezdemo_site_admin.session" type="collection">
+      <parameter key="name">eZSESSID{siteaccess_hash}</parameter>
+    </parameter>
+    <parameter key="ezsettings.demo.session" type="collection">
       <parameter key="name">eZSESSID{siteaccess_hash}</parameter>
     </parameter>
     <parameter key="ezsettings.ezdemo_site_group.field_templates" type="collection"/>
@@ -4545,6 +4865,20 @@
         <parameter key="priority">10</parameter>
       </parameter>
     </parameter>
+    <parameter key="ezsettings.demo.field_templates" type="collection">
+      <parameter type="collection">
+        <parameter key="template">EzPublishCoreBundle::content_fields.html.twig</parameter>
+        <parameter key="priority">0</parameter>
+      </parameter>
+      <parameter type="collection">
+        <parameter key="template">NovaeZSEOBundle:fields:novaseometas.html.twig</parameter>
+        <parameter key="priority">0</parameter>
+      </parameter>
+      <parameter type="collection">
+        <parameter key="template">eZDemoBundle::content_fields.html.twig</parameter>
+        <parameter key="priority">10</parameter>
+      </parameter>
+    </parameter>
     <parameter key="ezsettings.ezdemo_site_group.fielddefinition_settings_templates" type="collection"/>
     <parameter key="ezsettings.ezdemo_site.fielddefinition_settings_templates" type="collection">
       <parameter type="collection">
@@ -4565,6 +4899,12 @@
       </parameter>
     </parameter>
     <parameter key="ezsettings.ezdemo_site_admin.fielddefinition_settings_templates" type="collection">
+      <parameter type="collection">
+        <parameter key="template">EzPublishCoreBundle::fielddefinition_settings.html.twig</parameter>
+        <parameter key="priority">0</parameter>
+      </parameter>
+    </parameter>
+    <parameter key="ezsettings.demo.fielddefinition_settings_templates" type="collection">
       <parameter type="collection">
         <parameter key="template">EzPublishCoreBundle::fielddefinition_settings.html.twig</parameter>
         <parameter key="priority">0</parameter>
@@ -6054,6 +6394,377 @@
         <parameter key="post_processors" type="collection"/>
       </parameter>
     </parameter>
+    <parameter key="ezsettings.demo.image_variations" type="collection">
+      <parameter key="reference" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>600</parameter>
+            <parameter>600</parameter>
+          </parameter>
+        </parameter>
+      </parameter>
+      <parameter key="small" type="collection">
+        <parameter key="reference">reference</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>100</parameter>
+            <parameter>100</parameter>
+          </parameter>
+        </parameter>
+      </parameter>
+      <parameter key="tiny" type="collection">
+        <parameter key="reference">reference</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>30</parameter>
+            <parameter>30</parameter>
+          </parameter>
+        </parameter>
+      </parameter>
+      <parameter key="medium" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>200</parameter>
+            <parameter>290</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="large" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>360</parameter>
+            <parameter>440</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="rss" type="collection">
+        <parameter key="reference">reference</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scale" type="collection">
+            <parameter>88</parameter>
+            <parameter>31</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="campaign" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>770</parameter>
+            <parameter>390</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="backgroundimage" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>770</parameter>
+            <parameter>390</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="highlighted" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>300</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>300</parameter>
+            <parameter>300</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="galleryfull" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="contentgrid" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>370</parameter>
+            <parameter>160</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="gallery" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>770</parameter>
+            <parameter>390</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="imagefull" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="listitem" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>130</parameter>
+            <parameter>190</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="articleimage" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="articlethumbnail" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>170</parameter>
+            <parameter>220</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="gallerythumbnail" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>105</parameter>
+            <parameter>100</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="galleryline" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>70</parameter>
+            <parameter>150</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="imagelarge" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>448</parameter>
+            <parameter>622</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="logo" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaleheight" type="collection">
+            <parameter>36</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="infoboximage" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>75</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="billboard" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>764</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="productthumbnail" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownonly" type="collection">
+            <parameter>170</parameter>
+            <parameter>220</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="productimage" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scaledownwidthonly" type="collection">
+            <parameter>770</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="mainstory1" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>468</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>468</parameter>
+            <parameter>396</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="mainstory2" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>439</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>439</parameter>
+            <parameter>233</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="mainstory3" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>201</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>201</parameter>
+            <parameter>239</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="block2items1" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>195</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>195</parameter>
+            <parameter>98</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="block2items2" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>195</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>195</parameter>
+            <parameter>98</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="block3items3" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>195</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>195</parameter>
+            <parameter>98</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="blockgallery1" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidth" type="collection">
+            <parameter>126</parameter>
+          </parameter>
+          <parameter key="geometry/crop" type="collection">
+            <parameter>126</parameter>
+            <parameter>84</parameter>
+            <parameter>0</parameter>
+            <parameter>0</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+      <parameter key="imageplacesize" type="collection">
+        <parameter key="reference">null</parameter>
+        <parameter key="filters" type="collection">
+          <parameter key="geometry/scalewidthdownonly" type="collection">
+            <parameter>370</parameter>
+          </parameter>
+        </parameter>
+        <parameter key="post_processors" type="collection"/>
+      </parameter>
+    </parameter>
     <parameter key="ezsettings.default.ezpage" type="collection">
       <parameter key="layouts" type="collection">
         <parameter key="GlobalZoneLayout" type="collection">
@@ -6546,6 +7257,94 @@
         <parameter>HighlightedItem</parameter>
       </parameter>
     </parameter>
+    <parameter key="ezsettings.demo.ezpage" type="collection">
+      <parameter key="layouts" type="collection">
+        <parameter key="GlobalZoneLayout" type="collection">
+          <parameter key="name">Global zone layout</parameter>
+          <parameter key="template">eZDemoBundle:zone:globalzonelayout.html.twig</parameter>
+        </parameter>
+        <parameter key="2ZonesLayout1" type="collection">
+          <parameter key="name">2 zones (layout 1)</parameter>
+          <parameter key="template">eZDemoBundle:zone:2zoneslayout1.html.twig</parameter>
+        </parameter>
+        <parameter key="2ZonesLayout2" type="collection">
+          <parameter key="name">2 zones (layout 2)</parameter>
+          <parameter key="template">eZDemoBundle:zone:2zoneslayout2.html.twig</parameter>
+        </parameter>
+        <parameter key="2ZonesLayout3" type="collection">
+          <parameter key="name">2 zones (layout 3)</parameter>
+          <parameter key="template">eZDemoBundle:zone:2zoneslayout3.html.twig</parameter>
+        </parameter>
+        <parameter key="3ZonesLayout1" type="collection">
+          <parameter key="name">3 zones (layout 1)</parameter>
+          <parameter key="template">eZDemoBundle:zone:3zoneslayout1.html.twig</parameter>
+        </parameter>
+        <parameter key="3ZonesLayout2" type="collection">
+          <parameter key="name">3 zones (layout 2)</parameter>
+          <parameter key="template">eZDemoBundle:zone:3zoneslayout2.html.twig</parameter>
+        </parameter>
+      </parameter>
+      <parameter key="blocks" type="collection">
+        <parameter key="Campaign" type="collection">
+          <parameter key="name">Campaign</parameter>
+        </parameter>
+        <parameter key="MainStory" type="collection">
+          <parameter key="name">Main story</parameter>
+        </parameter>
+        <parameter key="ContentGrid" type="collection">
+          <parameter key="name">Content Grid</parameter>
+        </parameter>
+        <parameter key="Gallery" type="collection">
+          <parameter key="name">Gallery</parameter>
+        </parameter>
+        <parameter key="Banner" type="collection">
+          <parameter key="name">Banner</parameter>
+        </parameter>
+        <parameter key="Video" type="collection">
+          <parameter key="name">Video</parameter>
+        </parameter>
+        <parameter key="TagCloud" type="collection">
+          <parameter key="name">Tag cloud</parameter>
+        </parameter>
+        <parameter key="Poll" type="collection">
+          <parameter key="name">Poll</parameter>
+        </parameter>
+        <parameter key="ItemList" type="collection">
+          <parameter key="name">Item list</parameter>
+        </parameter>
+        <parameter key="FeedReader" type="collection">
+          <parameter key="name">Feed reader</parameter>
+        </parameter>
+        <parameter key="FeedbackForm" type="collection">
+          <parameter key="name">Feedback Form</parameter>
+        </parameter>
+        <parameter key="HighlightedItem" type="collection">
+          <parameter key="name">Highlighted Item</parameter>
+        </parameter>
+      </parameter>
+      <parameter key="enabledLayouts" type="collection">
+        <parameter>GlobalZoneLayout</parameter>
+        <parameter>2ZonesLayout1</parameter>
+        <parameter>2ZonesLayout2</parameter>
+        <parameter>2ZonesLayout3</parameter>
+        <parameter>3ZonesLayout1</parameter>
+        <parameter>3ZonesLayout2</parameter>
+      </parameter>
+      <parameter key="enabledBlocks" type="collection">
+        <parameter>Campaign</parameter>
+        <parameter>MainStory</parameter>
+        <parameter>ContentGrid</parameter>
+        <parameter>Gallery</parameter>
+        <parameter>Banner</parameter>
+        <parameter>Video</parameter>
+        <parameter>TagCloud</parameter>
+        <parameter>Poll</parameter>
+        <parameter>ItemList</parameter>
+        <parameter>FeedReader</parameter>
+        <parameter>FeedbackForm</parameter>
+        <parameter>HighlightedItem</parameter>
+      </parameter>
+    </parameter>
     <parameter key="ezsettings.ezdemo_site.languages" type="collection">
       <parameter>eng-GB</parameter>
       <parameter>fre-FR</parameter>
@@ -6561,10 +7360,12 @@
       <parameter>eng-GB</parameter>
       <parameter>fre-FR</parameter>
     </parameter>
+    <parameter key="ezsettings.demo.languages" type="collection"/>
     <parameter key="ezsettings.ezdemo_site.translation_siteaccesses" type="collection"/>
     <parameter key="ezsettings.eng.translation_siteaccesses" type="collection"/>
     <parameter key="ezsettings.fre.translation_siteaccesses" type="collection"/>
     <parameter key="ezsettings.ezdemo_site_admin.translation_siteaccesses" type="collection"/>
+    <parameter key="ezsettings.demo.translation_siteaccesses" type="collection"/>
     <parameter key="ezsettings.ezdemo_site_group.repository">eng_repository</parameter>
     <parameter key="ezsettings.ezdemo_site_group.var_dir">var/ezdemo_site</parameter>
     <parameter key="ezsettings.eng.session_name">eZSESSID</parameter>
@@ -6597,6 +7398,12 @@
         <parameter key="priority">0</parameter>
       </parameter>
     </parameter>
+    <parameter key="ezsettings.demo.fieldtypes.ezrichtext.output_custom_xsl" type="collection">
+      <parameter type="collection">
+        <parameter key="path">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../vendor/ezsystems/ezpublish-kernel/eZ/Publish/Core/FieldType/RichText/Resources/stylesheets/docbook/xhtml5/output/core.xsl</parameter>
+        <parameter key="priority">0</parameter>
+      </parameter>
+    </parameter>
     <parameter key="ezsettings.ezdemo_site.fieldtypes.ezrichtext.edit_custom_xsl" type="collection">
       <parameter type="collection">
         <parameter key="path">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../vendor/ezsystems/ezpublish-kernel/eZ/Publish/Core/FieldType/RichText/Resources/stylesheets/docbook/xhtml5/edit/core.xsl</parameter>
@@ -6621,10 +7428,17 @@
         <parameter key="priority">0</parameter>
       </parameter>
     </parameter>
+    <parameter key="ezsettings.demo.fieldtypes.ezrichtext.edit_custom_xsl" type="collection">
+      <parameter type="collection">
+        <parameter key="path">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../vendor/ezsystems/ezpublish-kernel/eZ/Publish/Core/FieldType/RichText/Resources/stylesheets/docbook/xhtml5/edit/core.xsl</parameter>
+        <parameter key="priority">0</parameter>
+      </parameter>
+    </parameter>
     <parameter key="ezsettings.ezdemo_site.fieldtypes.ezrichtext.input_custom_xsl" type="collection"/>
     <parameter key="ezsettings.eng.fieldtypes.ezrichtext.input_custom_xsl" type="collection"/>
     <parameter key="ezsettings.fre.fieldtypes.ezrichtext.input_custom_xsl" type="collection"/>
     <parameter key="ezsettings.ezdemo_site_admin.fieldtypes.ezrichtext.input_custom_xsl" type="collection"/>
+    <parameter key="ezsettings.demo.fieldtypes.ezrichtext.input_custom_xsl" type="collection"/>
     <parameter key="ezsettings.ezdemo_site.fieldtypes.ezxml.custom_xsl" type="collection">
       <parameter type="collection">
         <parameter key="path">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../vendor/ezsystems/ezpublish-kernel/eZ/Publish/Core/FieldType/XmlText/Input/Resources/stylesheets/eZXml2Html5_core.xsl</parameter>
@@ -6665,6 +7479,16 @@
         <parameter key="priority">0</parameter>
       </parameter>
     </parameter>
+    <parameter key="ezsettings.demo.fieldtypes.ezxml.custom_xsl" type="collection">
+      <parameter type="collection">
+        <parameter key="path">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../vendor/ezsystems/ezpublish-kernel/eZ/Publish/Core/FieldType/XmlText/Input/Resources/stylesheets/eZXml2Html5_core.xsl</parameter>
+        <parameter key="priority">0</parameter>
+      </parameter>
+      <parameter type="collection">
+        <parameter key="path">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../vendor/ezsystems/ezpublish-kernel/eZ/Publish/Core/FieldType/XmlText/Input/Resources/stylesheets/eZXml2Html5_custom.xsl</parameter>
+        <parameter key="priority">0</parameter>
+      </parameter>
+    </parameter>
     <parameter key="ezsettings.ezdemo_site_group.io.url_prefix">var/ezdemo_site/storage</parameter>
     <parameter key="ezsettings.ezdemo_site_group.io.legacy_url_prefix">var/ezdemo_site/storage</parameter>
     <parameter key="ezsettings.ezdemo_site_group.io.root_dir">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../ezpublish_legacy/var/ezdemo_site/storage</parameter>
@@ -6680,20 +7504,32 @@
     <parameter key="ezsettings.ezdemo_site_admin.io.url_prefix">var/ezdemo_site/storage</parameter>
     <parameter key="ezsettings.ezdemo_site_admin.io.legacy_url_prefix">var/ezdemo_site/storage</parameter>
     <parameter key="ezsettings.ezdemo_site_admin.io.root_dir">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../ezpublish_legacy/var/ezdemo_site/storage</parameter>
+    <parameter key="ezsettings.demo.io.url_prefix">var/ezdemo_site/storage</parameter>
+    <parameter key="ezsettings.demo.io.legacy_url_prefix">var/ezdemo_site/storage</parameter>
+    <parameter key="ezsettings.demo.io.root_dir">/data/home/ta.adigo/projets/NOVACTIVE/sandbox-ez5/wwwroot/ezpublish/../ezpublish_legacy/var/ezdemo_site/storage</parameter>
     <parameter key="ezsettings.ezdemo_site.related_siteaccesses" type="collection">
       <parameter>ezdemo_site</parameter>
       <parameter>eng</parameter>
       <parameter>fre</parameter>
+      <parameter>demo</parameter>
     </parameter>
     <parameter key="ezsettings.eng.related_siteaccesses" type="collection">
       <parameter>ezdemo_site</parameter>
       <parameter>eng</parameter>
       <parameter>fre</parameter>
+      <parameter>demo</parameter>
     </parameter>
     <parameter key="ezsettings.fre.related_siteaccesses" type="collection">
       <parameter>ezdemo_site</parameter>
       <parameter>eng</parameter>
       <parameter>fre</parameter>
+      <parameter>demo</parameter>
+    </parameter>
+    <parameter key="ezsettings.demo.related_siteaccesses" type="collection">
+      <parameter>ezdemo_site</parameter>
+      <parameter>eng</parameter>
+      <parameter>fre</parameter>
+      <parameter>demo</parameter>
     </parameter>
     <parameter key="ezpublish_legacy.enabled">true</parameter>
     <parameter key="ezpublish_legacy.kernel.lazy_loader.class">eZ\Publish\Core\MVC\Legacy\Kernel\Loader</parameter>
@@ -7183,6 +8019,21 @@
         </parameter>
       </parameter>
     </parameter>
+    <parameter key="ez_comments.demo.content_comments" type="collection">
+      <parameter key="comments" type="collection">
+        <parameter key="blog_post" type="collection">
+          <parameter key="enabled">true</parameter>
+          <parameter key="provider">disqus</parameter>
+          <parameter key="match" type="collection">
+            <parameter key="Identifier\ContentType" type="collection">
+              <parameter>article</parameter>
+              <parameter>blog_post</parameter>
+            </parameter>
+          </parameter>
+          <parameter key="options" type="collection"/>
+        </parameter>
+      </parameter>
+    </parameter>
     <parameter key="white_october_pagerfanta.default_view">default</parameter>
     <parameter key="white_october_pagerfanta.view_factory.class">Pagerfanta\View\ViewFactory</parameter>
     <parameter key="white_october_breadcrumbs.options" type="collection">
@@ -7546,6 +8397,58 @@
         <parameter key="icon">twitter-square</parameter>
       </parameter>
     </parameter>
+    <parameter key="novae_zseo.demo.fieldtype_metas" type="collection">
+      <parameter key="title" type="collection">
+        <parameter key="label">Title</parameter>
+        <parameter key="default_pattern">&lt;title|name&gt;</parameter>
+        <parameter key="icon">book</parameter>
+      </parameter>
+      <parameter key="description" type="collection">
+        <parameter key="label">Description</parameter>
+        <parameter key="default_pattern">null</parameter>
+        <parameter key="icon">book</parameter>
+      </parameter>
+      <parameter key="keywords" type="collection">
+        <parameter key="label">Keywords</parameter>
+        <parameter key="default_pattern">null</parameter>
+        <parameter key="icon">tags</parameter>
+      </parameter>
+      <parameter key="canonical" type="collection">
+        <parameter key="label">External Canonical URL</parameter>
+        <parameter key="default_pattern">null</parameter>
+        <parameter key="icon">link</parameter>
+      </parameter>
+      <parameter key="og:title" type="collection">
+        <parameter key="label">Title</parameter>
+        <parameter key="default_pattern">&lt;title|name&gt;</parameter>
+        <parameter key="icon">facebook-official</parameter>
+      </parameter>
+      <parameter key="og:description" type="collection">
+        <parameter key="label">Description</parameter>
+        <parameter key="default_pattern">&lt;short_description|description|title|name&gt;</parameter>
+        <parameter key="icon">facebook-official</parameter>
+      </parameter>
+      <parameter key="og:image" type="collection">
+        <parameter key="label">Image</parameter>
+        <parameter key="default_pattern">&lt;image|picture&gt;</parameter>
+        <parameter key="icon">facebook-official</parameter>
+      </parameter>
+      <parameter key="twitter:title" type="collection">
+        <parameter key="label">Title</parameter>
+        <parameter key="default_pattern">&lt;title|name&gt;</parameter>
+        <parameter key="icon">twitter-square</parameter>
+      </parameter>
+      <parameter key="twitter:description" type="collection">
+        <parameter key="label">Description</parameter>
+        <parameter key="default_pattern">&lt;short_description|description|title|name&gt;</parameter>
+        <parameter key="icon">twitter-square</parameter>
+      </parameter>
+      <parameter key="twitter:image" type="collection">
+        <parameter key="label">Image</parameter>
+        <parameter key="default_pattern">&lt;image|picture&gt;</parameter>
+        <parameter key="icon">twitter-square</parameter>
+      </parameter>
+    </parameter>
     <parameter key="novae_zseo.ezdemo_site.default_metas" type="collection">
       <parameter key="author">eZ Community Bundle Nova eZ SEO Bundle</parameter>
       <parameter key="copyright">null</parameter>
@@ -7565,6 +8468,12 @@
       <parameter key="MSSmartTagsPreventParsing">TRUE</parameter>
     </parameter>
     <parameter key="novae_zseo.ezdemo_site_admin.default_metas" type="collection">
+      <parameter key="author">eZ Community Bundle Nova eZ SEO Bundle</parameter>
+      <parameter key="copyright">null</parameter>
+      <parameter key="generator">eZ Platform</parameter>
+      <parameter key="MSSmartTagsPreventParsing">TRUE</parameter>
+    </parameter>
+    <parameter key="novae_zseo.demo.default_metas" type="collection">
       <parameter key="author">eZ Community Bundle Nova eZ SEO Bundle</parameter>
       <parameter key="copyright">null</parameter>
       <parameter key="generator">eZ Platform</parameter>
@@ -7678,6 +8587,33 @@
         <parameter key="type">application/rss+xml</parameter>
       </parameter>
     </parameter>
+    <parameter key="novae_zseo.demo.default_links" type="collection">
+      <parameter key="Index" type="collection">
+        <parameter key="href" type="collection">
+          <parameter key="location_id">2</parameter>
+        </parameter>
+        <parameter key="title">Home</parameter>
+      </parameter>
+      <parameter key="Search" type="collection">
+        <parameter key="href" type="collection">
+          <parameter key="legacy_uri">/content/advancedsearch</parameter>
+        </parameter>
+        <parameter key="title">Search</parameter>
+      </parameter>
+      <parameter key="Shortcut icon" type="collection">
+        <parameter key="href" type="collection">
+          <parameter key="asset">/design/standard/images/favicon.ico</parameter>
+        </parameter>
+        <parameter key="type">image/x-icon</parameter>
+      </parameter>
+      <parameter key="Alternate" type="collection">
+        <parameter key="href" type="collection">
+          <parameter key="legacy_uri">/rss/feed/my_feed</parameter>
+        </parameter>
+        <parameter key="title">RSS</parameter>
+        <parameter key="type">application/rss+xml</parameter>
+      </parameter>
+    </parameter>
     <parameter key="novae_zseo.ezdemo_site.sitemap_excludes" type="collection">
       <parameter key="locations" type="collection"/>
       <parameter key="subtrees" type="collection"/>
@@ -7706,10 +8642,18 @@
         <parameter>plopix</parameter>
       </parameter>
     </parameter>
+    <parameter key="novae_zseo.demo.sitemap_excludes" type="collection">
+      <parameter key="locations" type="collection"/>
+      <parameter key="subtrees" type="collection"/>
+      <parameter key="contentTypeIdentifiers" type="collection">
+        <parameter>plopix</parameter>
+      </parameter>
+    </parameter>
     <parameter key="novae_zseo.ezdemo_site.robots_disallow" type="collection"/>
     <parameter key="novae_zseo.eng.robots_disallow" type="collection"/>
     <parameter key="novae_zseo.fre.robots_disallow" type="collection"/>
     <parameter key="novae_zseo.ezdemo_site_admin.robots_disallow" type="collection"/>
+    <parameter key="novae_zseo.demo.robots_disallow" type="collection"/>
     <parameter key="ezpublish.debug.data_collector.class">eZ\Bundle\EzPublishDebugBundle\Collector\EzPublishDataCollector</parameter>
     <parameter key="web_profiler.controller.profiler.class">Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController</parameter>
     <parameter key="web_profiler.controller.router.class">Symfony\Bundle\WebProfilerBundle\Controller\RouterController</parameter>
@@ -9174,7 +10118,7 @@
         </argument>
         <argument type="service">
           <service class="eZ\Publish\Core\MVC\Symfony\Security\Authentication\AnonymousAuthenticationProvider" public="false">
-            <argument>559a354989907</argument>
+            <argument>559abf7622276</argument>
             <call method="setRepository">
               <argument type="service" id="ezpublish.signalslot.repository"/>
             </call>
@@ -9185,7 +10129,7 @@
         </argument>
         <argument type="service">
           <service class="eZ\Publish\Core\MVC\Symfony\Security\Authentication\AnonymousAuthenticationProvider" public="false">
-            <argument>559a354989907</argument>
+            <argument>559abf7622276</argument>
             <call method="setRepository">
               <argument type="service" id="ezpublish.signalslot.repository"/>
             </call>
@@ -9470,7 +10414,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>559a354989907</argument>
+            <argument>559abf7622276</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
           </service>
         </argument>
@@ -9513,7 +10457,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.context"/>
-            <argument>559a354989907</argument>
+            <argument>559abf7622276</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
           </service>
         </argument>
@@ -10550,6 +11494,9 @@
         <argument key="ezdemo_site_admin" type="collection">
           <argument>ezdemo_site_group</argument>
         </argument>
+        <argument key="demo" type="collection">
+          <argument>ezdemo_site_group</argument>
+        </argument>
       </argument>
       <argument>ezsettings</argument>
       <call method="setSiteAccess">
@@ -10719,6 +11666,7 @@
         <argument>eng</argument>
         <argument>fre</argument>
         <argument>ezdemo_site_admin</argument>
+        <argument>demo</argument>
       </argument>
       <argument>eZ\Publish\Core\MVC\Symfony\SiteAccess</argument>
     </service>
