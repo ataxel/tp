@@ -1,0 +1,29 @@
+
+<!-- Side Widget Well -->
+<div class="col-md-4">
+<div class="well">
+    <h4>{{ ez_render_field( content, 'version_num') }}</h4>
+    <h5>
+        {% if content.fields['compatibilities'] is defined %}
+
+            {{ ez_render_field( content, 'compatibilities') }}
+
+        {% endif %}
+    </h5>
+    <p>
+        {% if content.fields['changelog'] is defined %}
+
+            {{ ez_render_field( content, 'changelog') }}
+
+        {% endif %}
+</div>
+    </p>
+</div>
+
+
+
+
+
+
+
+

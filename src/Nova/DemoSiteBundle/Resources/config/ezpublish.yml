@@ -1,5 +1,15 @@
 system:
     default:
+        image_variations:
+            small:
+                reference: null
+                filters:
+                    - { name: geometry/scaledownonly, params: [100, 160] }
+            medium:
+                reference: null
+                filters:
+                    - { name: geometry/scaledownonly, params:[400, 640] }
+
         user:
             layout: NovaDemoSiteBundle::pagelayout.html.twig
         location_view:
@@ -25,3 +35,15 @@ system:
                     template: "NovaDemoSiteBundle:full:version.html.twig"
                     match:
                         Identifier\ContentType: "nv_pkg_version"
+            line:
+                nv_package:
+                    template: "NovaDemoSiteBundle:line:line.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_package"
+            full_obj:
+                nv_package:
+                    template: "NovaDemoSiteBundle:full:fullpackage.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_package"
+
+

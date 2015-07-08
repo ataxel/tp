@@ -1,0 +1,15 @@
+{% extends "NovaDemoSiteBundle::pagelayout.html.twig" %}
+{% block content %}
+
+    {{ render( controller( "ez_content:viewLocation", {"locationId": 132, "viewType": "full_obj"} ) ) }}
+
+{% endblock %}
+
+{% block sidebar %}
+
+    {% for content in content %}
+
+        {% include "NovaDemoSiteBundle:line:versionLine.html.twig" %}
+
+    {% endfor %}
+{% endblock %}

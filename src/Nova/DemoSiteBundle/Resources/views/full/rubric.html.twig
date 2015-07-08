@@ -6,24 +6,15 @@
     </div>
 </div>
 <!-- /.row -->
+   {#
+    {% for content in contents %}
+        {% include "NovaDemoSiteBundle:line:line.html.twig" %}
+    {% endfor %}
+    #}
+    {#
+    {{ render ( controller ('NovaDemoSiteBundle:Start:rubricContentList',
+    {'currentLocationId': currentLocation is defined ? currentLocation.id : null})
+    ) }} #}
 
-<!-- Page Features -->
-<div class="row text-center">
- <div class="col-md-3 col-sm-6 hero-feature">
-        <div class="thumbnail">
-            <img src="http://placehold.it/800x500" alt="">
-            <div class="caption">
-                <h3>Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                    <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-</div>
-<!-- /.row -->
-
-
+    {{ render( controller( "ez_content:viewLocation", {"locationId": 132, "viewType": "line"} ) ) }}
 {% endblock %}
