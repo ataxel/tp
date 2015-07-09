@@ -1,11 +1,13 @@
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="{{ app.request.locale }}"><!--<![endif]-->
 
 <head>
+    {% if metas is defined %}
+        {% block seo_metas %}
+            {% include "NovaeZSEOBundle::seometas_head.html.twig" %}
+        {% endblock %}
+    {% endif %}
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {% include 'NovaDemoSiteBundle::page_head.html.twig' %}
+    {% include 'NovaDemoSiteBundle::page_head_style_script.html.twig' %}
 </head>
 
 <body>
@@ -31,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="{{ path( "ez_urlalias", {"locationId": 130} ) }}">NOVA TP</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -52,7 +54,7 @@
     <!-- Page Content -->
     <div class="container">
 		
-        <hr>
+        <br>
 		{% block breadcrumb %}
             
         {% endblock %}

@@ -79,7 +79,7 @@ class Builder
         $this->translationHelper = $translationHelper;
     }
 
-    public function createTopMenu( Request $request )
+    public function createTopMenu( )
     {
         $menu = $this->factory->createItem( 'root' );
         $this->addLocationsToMenu(
@@ -111,12 +111,12 @@ class Builder
                 array(
                     'label' => $this->translationHelper->getTranslatedContentNameByContentInfo( $location->contentInfo ),
                     'uri' => $this->router->generate( $location ),
-
-                )
+                     )
             );
-            $menuItem->setChildrenAttribute( 'class', 'nav navbar-nav' )
-                     ->setChildrenAttribute( 'id', '#' )
-                     ;
+          $menu = $menuItem->setChildrenAttribute( 'class', 'nav navbar-nav' )
+                     ->setChildrenAttribute( 'id', 'my_nav' );
+
+
         }
     }
 
@@ -135,10 +135,7 @@ class Builder
             array(
                 new Criterion\ContentTypeIdentifier( $this->getTopMenuContentTypeIdentifierList() ),
                 new Criterion\Visibility( Criterion\Visibility::VISIBLE ),
-                new Criterion\Location\Depth(
-                    Criterion\Operator::BETWEEN,
-                    array( $rootLocation->depth + 2, $rootLocation->depth + 3 )
-                ),
+                new Criterion\ContentTypeIdentifier( 'tsms_rubric' ),
                 new Criterion\Subtree( $rootLocation->pathString ),
                 new Criterion\LanguageCode( $this->configResolver->getParameter( 'languages' ) )
             )

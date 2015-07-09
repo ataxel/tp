@@ -7,3 +7,30 @@
     <!-- Bootstrap Core JavaScript -->
 
 	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script>
+        $(document).ready(function(){
+            var str=location.href.toLowerCase();
+
+            $("#my_nav li a").each(function() {
+
+                if (str.indexOf(this.href.toLowerCase()) > -1) {
+
+                    $("li.active").removeClass("active");
+
+                    $(this).parent().addClass("active");
+
+                }
+
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+
+            $(".pagerFanta div").removeClass("pagination");
+
+            $(".pagerFanta div ul").addClass("pagination");
+
+
+        });
+    </script>

@@ -10,12 +10,12 @@ system:
                 filters:
                     - { name: geometry/scaledownonly, params:[400, 640] }
 
-        user:
-            layout: NovaDemoSiteBundle::pagelayout.html.twig
+        #user:
+            #layout: NovaDemoSiteBundle::pagelayout.html.twig
         location_view:
             full:
                 nv_homepage:
-                    template: "NovaDemoSiteBundle:NovaFront:index.html.twig"
+                    template: "NovaDemoSiteBundle:full:accueil.html.twig"
                     match:
                         Identifier\ContentType: "nv_homepage"
                 rubrique:
@@ -44,10 +44,16 @@ system:
                     template: "NovaDemoSiteBundle:line:line.html.twig"
                     match:
                         Identifier\ContentType: "tsms_rubric"
+                nv_pkg_version:
+                    template: "NovaDemoSiteBundle:line:versionLine.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_pkg_version"
+                nv_page:
+                    template: "NovaDemoSiteBundle:line:pageLine.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_page"
             full_obj:
                 nv_package:
                     template: "NovaDemoSiteBundle:full:fullpackage.html.twig"
                     match:
                         Identifier\ContentType: "nv_package"
-
-

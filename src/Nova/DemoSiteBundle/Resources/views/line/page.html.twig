@@ -1,0 +1,5 @@
+{% for content in contentList %}
+
+    {{ render( controller( "ez_content:viewLocation", {"locationId": content.contentInfo.mainLocationId, "viewType": "line"} ) ) }}
+
+{% endfor %}

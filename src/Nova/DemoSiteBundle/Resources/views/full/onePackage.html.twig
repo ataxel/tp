@@ -1,15 +1,15 @@
 {% extends "NovaDemoSiteBundle::pagelayout.html.twig" %}
 {% block content %}
+    {% for content in contentList %}
+        {{ render( controller( "ez_content:viewLocation", {"locationId": content.contentInfo.mainLocationId, "viewType": "full_obj"} ) ) }}
 
-    {{ render( controller( "ez_content:viewLocation", {"locationId": 132, "viewType": "full_obj"} ) ) }}
-
+    {% endfor %}
 {% endblock %}
 
 {% block sidebar %}
-
     {% for content in content %}
 
-        {% include "NovaDemoSiteBundle:line:versionLine.html.twig" %}
+        {{ render( controller( "ez_content:viewLocation", {"locationId": content.contentInfo.mainLocationId, "viewType": "line"} ) ) }}
 
     {% endfor %}
 {% endblock %}

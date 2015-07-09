@@ -3,12 +3,14 @@
 namespace Nova\DemoSiteBundle\Controller;
 
 use eZ\Publish\API\Repository\Values\Content\Query;
-use Symfony\Component\HttpFoundation\Response;
+use Pagerfanta\Pagerfanta;
+
+use Symfony\Component\HttpFoundation\Request;
 use eZ\Bundle\EzPublishCoreBundle\Controller;
 use eZ\Publish\API\Repository\Values\Content\Query\SortClause;
 use eZ\Publish\API\Repository\Values\Content\Query\Criterion;
-use eZ\Publish\API\Repository\LocationService;
-use eZ\Publish\API\Repository\Repository;
+
+use eZ\Publish\Core\Pagination\Pagerfanta\ContentSearchAdapter;
 
 
 class StartController extends Controller
@@ -21,10 +23,12 @@ class StartController extends Controller
     public function accueilAction()
     {
 
+
+
         return $this->render( 'NovaDemoSiteBundle:NovaFront:index.html.twig');
     }
 
-    public function rubricDisplayAction($locationId)
+    public function rubricDisplayAction(Request $req,$locationId)
     {
 
         $query = new Query();
@@ -34,16 +38,30 @@ class StartController extends Controller
                 new Criterion\ContentTypeIdentifier( 'nv_package' )
             )
         );
-        $result = $this->getRepository()->getSearchService()->findContent($query);
+        /* $result = $this->getRepository()->getSearchService()->findContent($query);
 
-        $content = array();
-        foreach($result->searchHits as $hit)
-        {
-            $content[] = $hit->valueObject;
-        }
+         $content = array();
+         foreach($result->searchHits as $hit)
+         {
+             $content[] = $hit->valueObject;
+         }*/
+
+        $pager = new Pagerfanta(
+
+            new contentSearchAdapter( $query, $this->getRepository()->getSearchService() )
+        );
+        $pager->setMaxPerPage( 1 );
+        $pager->setCurrentPage( $req->get( 'page',1 ));
 
 
-        return $this->render( 'NovaDemoSiteBundle:line:rubric.html.twig', array("contentList"=>$content));
+       // return $this->render( 'NovaDemoSiteBundle:line:rubric.html.twig', array("contentList"=>$content));
+
+        return $this->render( 'NovaDemoSiteBundle:line:rubric.html.twig',
+                            array(
+                                "totalFolderCount"=>$pager->getNbResults(),
+                                "pagerFolder" => $pager,
+                                "location" => $this->getRepository()->getLocationService()->loadLocation( $locationId ),
+                            ) );
 
     }
 
@@ -73,8 +91,26 @@ class StartController extends Controller
                 $content[] = $hit->valueObject;
             }
 
+            $query2 = new Query();
+            $query2->criterion = new Criterion\LogicalAnd(
+                array(
+                    new Criterion\LocationId( $locationId ),
+                    new Criterion\ContentTypeIdentifier( 'nv_package' )
+                )
+            );
+            $result2 = $this->getRepository()->getSearchService()->findContent($query2);
+            $contentList = array();
+            foreach($result2->searchHits as $hit)
+            {
+                $contentList[] = $hit->valueObject;
+            }
 
-            return $this->render( 'NovaDemoSiteBundle:full:onePackage.html.twig', array("content"=>$content));
+
+
+
+            return $this->render( 'NovaDemoSiteBundle:full:onePackage.html.twig', array(
+                                                                                        "content"=>$content,
+                                                                                        "contentList"=>$contentList));
 
     }
 

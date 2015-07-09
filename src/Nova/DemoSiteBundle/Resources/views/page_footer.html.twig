@@ -1,8 +1,17 @@
 <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Nova TP</p>
+                    <h5>Our Pages:</h5>
+                    <p>
+                        {{ render( controller( "NovaDemoSiteBundle:Footer:displayPages" )) }}
+                    </p>
+                </div>
+
+                <div class="col-lg-12">
+                    <p>
+                        Copyright &copy; Nova TP
+                    </p>
                 </div>
             </div>
 </footer>
-</div>
+

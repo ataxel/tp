@@ -6,9 +6,22 @@
     </div>
 </div>
 
-    {% for content in contentList %}
+   {#  {% for content in contentList %}
         {{ render( controller( "ez_content:viewLocation", {"locationId": content.contentInfo.mainLocationId, "viewType": "line"} ) ) }}
-    {% endfor %}
+    {% endfor %} #}
+
+        {%  for folder in pagerFolder %}
+
+            {{ render( controller( "ez_content:viewLocation", {"locationId": folder.contentInfo.mainLocationId, "viewType": "line"} ) ) }}
+
+        {%  endfor %}
+
+
+    {% if pagerFolder.haveToPaginate() %}
+        <div class="pagerfanta">
+            {{ pagerfanta( pagerFolder, 'twitter_bootstrap_translated', {'routeName': location} ) }}
+        </div>
+    {% endif %}
     <!-- /.row -->
    {#
     {% for content in contents %}

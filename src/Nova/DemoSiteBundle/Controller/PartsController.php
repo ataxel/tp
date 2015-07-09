@@ -3,9 +3,11 @@
 namespace Nova\DemoSiteBundle\Controller;
 
 
-use Symfony\Component\HttpFoundation\Request;
+
 use Symfony\Component\HttpFoundation\Response;
 use eZ\Bundle\EzPublishCoreBundle\Controller;
+
+
 
 class PartsController extends Controller
 {
@@ -16,15 +18,18 @@ class PartsController extends Controller
     public function topMenuAction( $currentLocationId ) {
         if ( $currentLocationId !== null ) {
             $location = $this->getLocationService()->loadLocation( $currentLocationId );
-            if ( isset( $location->path[130] ) )
+            if ( isset( $location->path[2] ) )
             {
-                $secondLevelLocationId = $location->path[130];
+                $secondLevelLocationId = $location->path[2];
             }
         }
 
         $response = new Response;
 
         $menu = $this->getMenu( 'top' );
+
+
+
         $parameters = array( 'menu' => $menu );
 
         if ( isset( $secondLevelLocationId ) && isset( $menu[$secondLevelLocationId] ) ) {
