@@ -1,4 +1,4 @@
-                          <title>New Class / Content / Class groups - eZ Publish Demo Site</title>
+                          <title>Rubrique / Content / Class groups - eZ Publish Demo Site</title>
 
     
     
@@ -20,7 +20,7 @@
         
 <link rel="Home" href="/ezdemo_site_admin" title="eZ Publish Demo Site front page" />
 <link rel="Index" href="/ezdemo_site_admin" />
-<link rel="Top"  href="/ezdemo_site_admin" title="New Class / Content / Class groups - eZ Publish Demo Site" />
+<link rel="Top"  href="/ezdemo_site_admin" title="Rubrique / Content / Class groups - eZ Publish Demo Site" />
 <link rel="Search" href="/ezdemo_site_admin/content/advancedsearch" title="Search eZ Publish Demo Site" />
 <link rel="Shortcut icon" href="/design/standard/images/favicon.ico" type="image/x-icon" />
 <link rel="Copyright" href="/ezdemo_site_admin/ezinfo/copyright" />

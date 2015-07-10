@@ -12,4 +12,10 @@ ShowClasses[]=forums
 ShowClasses[]=gallery
 ShowClasses[]=blog
 ShowClasses[]=place_list
+ShowClasses[]=tsms_rubric
+ShowClasses[]=nv_homepage
+ShowClasses[]=nv_page
+ShowClasses[]=nv_package
+ShowClasses[]=nv_pkg_version
+
 */ ?>

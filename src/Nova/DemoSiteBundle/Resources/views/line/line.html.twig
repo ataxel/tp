@@ -1,0 +1,28 @@
+{#
+    Render a content object in line view
+#}
+
+
+<!-- Page Features -->
+<br>
+<div class="row text-center">
+    <div class="col-md-3 col-sm-6 hero-feature">
+        <div class="thumbnail">
+            {{ ez_render_field( content, 'screenshot', {'parameters':{'alias':'small'}})   }}
+            <div class="caption">
+                <h3>{{ ez_render_field( content, 'title') }}</h3>
+
+                {% if content.fields['abstract'] is defined %}
+                    <p>
+                        {{ ez_render_field( content, 'abstract') }}
+                    </p>
+                {% endif %}
+                <p>
+                   <a href="{{ path( location ) }}" class="btn btn-primary">More Info</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.row -->

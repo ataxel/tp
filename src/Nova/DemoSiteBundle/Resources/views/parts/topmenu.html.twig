@@ -1,0 +1,9 @@
+    {{ knp_menu_render(menu, {'depth':1,'currentClass':'top', 'firstClass': '', 'lastClass': ''}) }}
+
+
+
+    {% if submenu is defined %}
+
+         {{ knp_menu_render(submenu, {'firstClass': 'firstli', 'lastClass': 'lastli', 'branch_class': 'nav'}) }}
+
+    {% endif %}

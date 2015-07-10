@@ -61,3 +61,23 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+novae_zseo:
+    system:
+        default:
+            default_metas:
+                author: "Nova tp Group"
+                copyright: ~
+                generator: "ez platform"
+                MSSmartTagsPreventParsing: "TRUE"
+            fieldtype_metas_identifier: "metas"
+            fieldtype_metas:
+                title:
+                    label: 'Title'
+                    default_pattern: "<title|name>"
+                description:
+                    label: 'Description'
+                    default_pattern: "<description|short_description|title|name>"
+
+
+

@@ -37,7 +37,9 @@
         "symfony/expression-language": "~2.4",
         "sensio/framework-extra-bundle": "~3.0",
         "novactive/ezseobundle": "dev-master",
-        "novactive/phpcs-novastandards": "~1.2"
+        "novactive/phpcs-novastandards": "~1.2",
+        "netgen/tagsbundle": "dev-master",
+        "ezsystems/eztags-ls":"~1.4"
     },
     "require-dev": {
         "behat/behat": "3.0.*",

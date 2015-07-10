@@ -245,8 +245,12 @@ class ezpublishDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redi
         }
 
         // nova_demo_site_homepage
-        if ($pathinfo === '/demo') {
-            return array (  '_controller' => 'Nova\\DemoSiteBundle\\Controller\\DefaultController::indexAction',  '_route' => 'nova_demo_site_homepage',);
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'nova_demo_site_homepage');
+            }
+
+            return array (  '_controller' => 'Nova\\DemoSiteBundle\\Controller\\StartController::indexAction',  '_route' => 'nova_demo_site_homepage',);
         }
 
         if (0 === strpos($pathinfo, '/log')) {

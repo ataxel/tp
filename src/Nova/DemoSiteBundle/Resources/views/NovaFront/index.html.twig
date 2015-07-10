@@ -1,0 +1,13 @@
+{% extends "NovaDemoSiteBundle::pagelayout.html.twig" %}
+{% block content %}
+
+<div class="row text-center">
+
+
+    {{ render( controller( "ez_content:viewLocation", {"locationId": 130, "viewType": "full"} ) ) }}
+
+
+</div>
+
+
+{% endblock %}

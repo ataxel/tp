@@ -39,6 +39,7 @@ use Doctrine\Bundle\DoctrineBundle\DoctrineBundle;
 use Knp\Bundle\MenuBundle\KnpMenuBundle;
 use Oneup\FlysystemBundle\OneupFlysystemBundle;
 use Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle;
+use Netgen\TagsBundle\NetgenTagsBundle;
 
 class EzPublishKernel extends Kernel
 {
@@ -78,6 +79,7 @@ class EzPublishKernel extends Kernel
             new OneupFlysystemBundle(),
             new Novactive\Bundle\eZSEOBundle\NovaeZSEOBundle(),
             new Nova\DemoSiteBundle\NovaDemoSiteBundle(),
+            new NetgenTagsBundle()
         );
 
         switch ( $this->getEnvironment() )

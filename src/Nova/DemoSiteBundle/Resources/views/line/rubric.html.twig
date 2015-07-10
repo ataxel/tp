@@ -1,0 +1,40 @@
+{% extends "NovaDemoSiteBundle::pagelayout.html.twig" %}
+{% block content %}
+<div class="row">
+    <div class="col-lg-12">
+        <h3>{# {{ ez_render_field( content, 'title' ) }} #}</h3>
+    </div>
+</div>
+
+   {#  {% for content in contentList %}
+        {{ render( controller( "ez_content:viewLocation", {"locationId": content.contentInfo.mainLocationId, "viewType": "line"} ) ) }}
+    {% endfor %} #}
+
+        {%  for folder in pagerFolder %}
+
+            {{ render( controller( "ez_content:viewLocation", {"locationId": folder.contentInfo.mainLocationId, "viewType": "line"} ) ) }}
+
+        {%  endfor %}
+
+
+    {% if pagerFolder.haveToPaginate() %}
+        <div class="pagerfanta">
+            {{ pagerfanta( pagerFolder, 'twitter_bootstrap_translated', {'routeName': location} ) }}
+        </div>
+    {% endif %}
+    <!-- /.row -->
+   {#
+    {% for content in contents %}
+        {% include "NovaDemoSiteBundle:line:line.html.twig" %}
+    {% endfor %}
+    #}
+    {#
+    {{ render ( controller ('NovaDemoSiteBundle:Start:rubricContentList',
+    {'currentLocationId': currentLocation is defined ? currentLocation.id : null})
+    ) }} #}
+
+    {#
+
+    #}
+
+{% endblock %}

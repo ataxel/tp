@@ -1,0 +1,23 @@
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h3>{{ ez_render_field( content, 'title' ) }} </h3>
+        <a href="#">Go</a>
+    </div>
+</div>
+
+
+    <!-- /.row -->
+   {#
+    {% for content in contents %}
+        {% include "NovaDemoSiteBundle:line:line.html.twig" %}
+    {% endfor %}
+    #}
+    {#
+    {{ render ( controller ('NovaDemoSiteBundle:Start:rubricContentList',
+    {'currentLocationId': currentLocation is defined ? currentLocation.id : null})
+    ) }} #}
+
+    {#  {{ render( controller( "ez_content:viewLocation", {"locationId": 132, "viewType": "line"} ) ) }}
+    #}

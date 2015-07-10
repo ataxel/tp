@@ -1,5 +1,5 @@
                         
-    var rootNode = {"node_id":"1","object_id":0,"class_id":1,"has_children":true,"name":"Top Level Nodes","url":"\/ezdemo_site_admin\/content\/dashboard","modified_subnode":"1435929800","languages":[],"class_list":[]};
+    var rootNode = {"node_id":"1","object_id":0,"class_id":1,"has_children":true,"name":"Top Level Nodes","url":"\/ezdemo_site_admin\/content\/dashboard","modified_subnode":"1436195828","languages":[],"class_list":[]};
 
                     var params = {"iconsList":[],"contentTreeUrl":"/ezdemo_site_admin/content/treemenu/","wwwDirPrefix":"/share/icons/crystal-admin/16x16_indexed/"};
 

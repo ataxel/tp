@@ -1,0 +1,59 @@
+system:
+    default:
+        image_variations:
+            small:
+                reference: null
+                filters:
+                    - { name: geometry/scaledownonly, params: [100, 160] }
+            medium:
+                reference: null
+                filters:
+                    - { name: geometry/scaledownonly, params:[400, 640] }
+
+        #user:
+            #layout: NovaDemoSiteBundle::pagelayout.html.twig
+        location_view:
+            full:
+                nv_homepage:
+                    template: "NovaDemoSiteBundle:full:accueil.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_homepage"
+                rubrique:
+                    controller: NovaDemoSiteBundle:Start:rubricDisplay
+                    #template: "NovaDemoSiteBundle:full:rubric.html.twig"
+                    match:
+                        Identifier\ContentType: "tsms_rubric"
+                nv_page:
+                    template: "NovaDemoSiteBundle:full:page.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_page"
+                nv_package:
+                    template: "NovaDemoSiteBundle:full:package.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_package"
+                nv_pkg_version:
+                    template: "NovaDemoSiteBundle:full:version.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_pkg_version"
+            line:
+                nv_package:
+                    template: "NovaDemoSiteBundle:line:line.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_package"
+                rubrique:
+                    template: "NovaDemoSiteBundle:line:line.html.twig"
+                    match:
+                        Identifier\ContentType: "tsms_rubric"
+                nv_pkg_version:
+                    template: "NovaDemoSiteBundle:line:versionLine.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_pkg_version"
+                nv_page:
+                    template: "NovaDemoSiteBundle:line:pageLine.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_page"
+            full_obj:
+                nv_package:
+                    template: "NovaDemoSiteBundle:full:fullpackage.html.twig"
+                    match:
+                        Identifier\ContentType: "nv_package"

@@ -111,10 +111,10 @@ class Builder
                 array(
                     'label' => $this->translationHelper->getTranslatedContentNameByContentInfo( $location->contentInfo ),
                     'uri' => $this->router->generate( $location ),
-                    'attributes' => array( 'id' => 'nav-location-' . $location->id )
+                    'attributes' => array( 'class' => 'nav-location-' . $location->id )
                 )
             );
-            $menuItem->setChildrenAttribute( 'class', 'nav' );
+            $menuItem->setChildrenAttribute( 'class', 'nav navbar-nav' );
         }
     }
 
